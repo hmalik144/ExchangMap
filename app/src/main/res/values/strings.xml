@@ -1,0 +1,1999 @@
+<resources>
+    <string name="app_name">Exchange Map</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="airports">
+        <item>Jalalabad - JAA - Afghanistan</item>
+        <item>Kabul - Khwaja Rawash Airport - KBL - Afghanistan</item>
+        <item>Uruzgan - URZ - Afghanistan</item>
+        <item>Tirana - Rinas - TIA - Albania</item>
+        <item>Algiers, Houari Boumediene Airport - ALG - Algeria</item>
+        <item>Annaba - AAE - Algeria</item>
+        <item>Constantine - CZL - Algeria</item>
+        <item>Jijel - GJL - Algeria</item>
+        <item>Oran (Ouahran) - ORN - Algeria</item>
+        <item>Pago Pago - PPG - American Samoa</item>
+        <item>Andorra La Vella - Heliport - ALV</item>
+        <item>Benguela - BUG - Angola</item>
+        <item>Cabinda - CAB - Angola</item>
+        <item>Jamba - JMB - Angola</item>
+        <item>Luanda - 4 de Fevereiro - LAD - Angola</item>
+        <item>Uige - UGO - Angola</item>
+        <item>Anguilla - AXA</item>
+        <item>Antigua, V.C. Bird International - ANU</item>
+        <item>Buenos Aires - BUE - Argentina</item>
+        <item>Buenos Aires, Ezeiza International Airport - EZE - Argentina</item>
+        <item>Buenos Aires, Jorge Newbery - AEP - Argentina</item>
+        <item>Cordoba - COR - Argentina</item>
+        <item>Iguazu, Cataratas - IGR - Argentina</item>
+        <item>Jose De San Martin - JSM - Argentina</item>
+        <item>Jujuy - El Cadillal Airport - JUJ - Argentina</item>
+        <item>Junin - JNI - Argentina</item>
+        <item>Mar del Plata - MDQ - Argentina</item>
+        <item>Mendoza - MDZ - Argentina</item>
+        <item>Rosario - ROS - Argentina</item>
+        <item>Salta, Gen Belgrano - SLA - Argentina</item>
+        <item>San Carlos de Bariloche - BRC - Argentina</item>
+        <item>Santa Rosa - RSA - Argentina</item>
+        <item>Ushuaia - Islas Malvinas Airport - USH - Argentina</item>
+        <item>Eriwan (Yerevan, Jerevan) - EVN - Armenia</item>
+        <item>Aruba - Reina Beatrix International, Oranjestad - AUA</item>
+        <item>Oranjestad - Reina Beatrix International - AUA - Aruba</item>
+        <item>Adelaide - ADL - Australia</item>
+        <item>Albany - ALH - Australia</item>
+        <item>Albury - ABX - Australia</item>
+        <item>Alice Springs - ASP - Australia</item>
+        <item>Ayers Rock - Connellan - AYQ - Australia</item>
+        <item>Ayr - AYR - Australia</item>
+        <item>Ballina - BNK - Australia</item>
+        <item>Bamaga - ABM - Australia</item>
+        <item>Blackwater - BLT - Australia</item>
+        <item>Bowen - ZBO - Australia</item>
+        <item>Brampton Island - BMP - Australia</item>
+        <item>Brisbane - BNE - Australia</item>
+        <item>Broken Hill - BHQ - Australia</item>
+        <item>Broome - BME - Australia</item>
+        <item>Bundaberg - BDB - Australia</item>
+        <item>Burnie (Wynyard) - BWT - Australia</item>
+        <item>Cairns - CNS - Australia</item>
+        <item>Canberra - Canberra Airport - CBR - Australia</item>
+        <item>Carnarvon - CVQ - Australia</item>
+        <item>Casino - CSI - Australia</item>
+        <item>Ceduna - CED - Australia</item>
+        <item>Cessnock - CES - Australia</item>
+        <item>Charters Towers - CXT - Australia</item>
+        <item>Clermont - CMQ - Australia</item>
+        <item>Coffs Harbour - CFS - Australia</item>
+        <item>Collinsville - KCE - Australia</item>
+        <item>Coober Pedy - CPD - Australia</item>
+        <item>Cooktown - CTN - Australia</item>
+        <item>Cooma - OOM - Australia</item>
+        <item>Dalby - DBY - Australia</item>
+        <item>Darwin - DRW - Australia</item>
+        <item>Daydream Island - DDI - Australia</item>
+        <item>Derby - DRB - Australia</item>
+        <item>Devonport - DPO - Australia</item>
+        <item>Dubbo - DBO - Australia</item>
+        <item>Dunk Island - DKI - Australia</item>
+        <item>Dysart - DYA - Australia</item>
+        <item>Emerald - EDR - Australia</item>
+        <item>Emerald - EMD - Australia</item>
+        <item>Esperance - EPR - Australia</item>
+        <item>Geelong - GEX - Australia</item>
+        <item>Geraldton - GET - Australia</item>
+        <item>Gladstone - GLT - Australia</item>
+        <item>Gold Coast - OOL - Australia</item>
+        <item>Goondiwindi - GOO - Australia</item>
+        <item>Gove (Nhulunbuy) - GOV - Australia</item>
+        <item>Great Keppel Island - GKL - Australia</item>
+        <item>Griffith - GFF - Australia</item>
+        <item>Groote Eylandt - Alyangula - GTE - Australia</item>
+        <item>Gympie - GYP - Australia</item>
+        <item>Hamilton - HLT - Australia</item>
+        <item>Hamilton Island - HTI - Australia</item>
+        <item>Hayman Island - HIS - Australia</item>
+        <item>Hervey Bay - HVB - Australia</item>
+        <item>Hinchinbrook Island - HNK - Australia</item>
+        <item>Hobart - HBA - Australia</item>
+        <item>Home Hill - HMH - Australia</item>
+        <item>Ingham - IGH - Australia</item>
+        <item>Innisfail - IFL - Australia</item>
+        <item>Jandakot - JAD - Australia</item>
+        <item>Julia Creek - JCK - Australia</item>
+        <item>Jundah - JUN - Australia</item>
+        <item>Kalgoorlie - KGI - Australia</item>
+        <item>Karratha - KTA - Australia</item>
+        <item>Karumba - KRB - Australia</item>
+        <item>Katherine - KTR - Australia</item>
+        <item>Kingscote - KGC - Australia</item>
+        <item>Kowanyama - KWM - Australia</item>
+        <item>Kununurra - KNX - Australia</item>
+        <item>Launceston - LST - Australia</item>
+        <item>Laverton - LVO - Australia</item>
+        <item>Learmouth (Exmouth) - LEA - Australia</item>
+        <item>Leinster - LER - Australia</item>
+        <item>Leonora - LNO - Australia</item>
+        <item>Lindeman Island - LDC - Australia</item>
+        <item>Lismore - LSY - Australia</item>
+        <item>Lizard Island - LZR - Australia</item>
+        <item>Lockhart River - IRG - Australia</item>
+        <item>Longreach - LRE - Australia</item>
+        <item>Mackay - MKY - Australia</item>
+        <item>Maitland - MTL - Australia</item>
+        <item>Maryborough - MBH - Australia</item>
+        <item>Meekatharra - MKR - Australia</item>
+        <item>Melbourne - Tullamarine - MEL - Australia</item>
+        <item>Merimbula - MIM - Australia</item>
+        <item>Middlemount - MMM - Australia</item>
+        <item>Mildura - MQL - Australia</item>
+        <item>Moranbah - MOV - Australia</item>
+        <item>Moree - MRZ - Australia</item>
+        <item>Moruya - MYA - Australia</item>
+        <item>Mount Gambier - MGB - Australia</item>
+        <item>Mount Magnet - MMG - Australia</item>
+        <item>Mt. Isa - ISA - Australia</item>
+        <item>Narrabri - NAA - Australia</item>
+        <item>Narrandera - NRA - Australia</item>
+        <item>Newcastle - Belmont - BEO - Australia</item>
+        <item>Newcastle - Williamtown - NTL - Australia</item>
+        <item>Newman - ZNE - Australia</item>
+        <item>Noosa - NSA - Australia</item>
+        <item>Norfolk Island - NLK - Australia</item>
+        <item>Olympic Dam - OLP - Australia</item>
+        <item>Orange - OAG - Australia</item>
+        <item>Orpheus Island - ORS - Australia</item>
+        <item>Paraburdoo - PBO - Australia</item>
+        <item>Perth International - PER - Australia</item>
+        <item>Port Augusta - PUG - Australia</item>
+        <item>Port Hedland - PHE - Australia</item>
+        <item>Portland - PTJ - Australia</item>
+        <item>Port Lincoln - PLO - Australia</item>
+        <item>Port Macquarie - PQQ - Australia</item>
+        <item>Prosperpine - PPP - Australia</item>
+        <item>Queenstown - UEE - Australia</item>
+        <item>Rockhampton - ROK - Australia</item>
+        <item>Scone - NSO - Australia</item>
+        <item>Shute Harbour - JHQ - Australia</item>
+        <item>Singleton - SIX - Australia</item>
+        <item>South Molle Island - SOI - Australia</item>
+        <item>Streaky Bay - KBY - Australia</item>
+        <item>Sunshine Coast - MCY - Australia</item>
+        <item>Sydney - SYD - Australia</item>
+        <item>Tamworth - TMW - Australia</item>
+        <item>Taree - TRO - Australia</item>
+        <item>Temora - TEM - Australia</item>
+        <item>Tennant Creek - TCA - Australia</item>
+        <item>Thursday Island - TIS - Australia</item>
+        <item>Tom Price - TPR - Australia</item>
+        <item>Toowoomba - TWB - Australia</item>
+        <item>Townsville - TSV - Australia</item>
+        <item>Wagga - WGA - Australia</item>
+        <item>Warrnambool - WMB - Australia</item>
+        <item>Weipa - WEI - Australia</item>
+        <item>Whitsunday Resort - HAP - Australia</item>
+        <item>Whyalla - WYA - Australia</item>
+        <item>Wickham - WHM - Australia</item>
+        <item>Wiluna - WUN - Australia</item>
+        <item>Wollongong - WOL - Australia</item>
+        <item>Woomera - UMR - Australia</item>
+        <item>Wyndham - WYN - Australia</item>
+        <item>Graz - GRZ - Austria</item>
+        <item>Innsbruck - Kranebitten - INN - Austria</item>
+        <item>Klagenfurt - KLU - Austria</item>
+        <item>Linz - Hoersching - LNZ - Austria</item>
+        <item>Salzburg - W.A. Mozart - SZG - Austria</item>
+        <item>Wien (Vienna) - Vienna International - VIE - Austria</item>
+        <item>Baku - Heydar Aliyev International Airport - BAK - Azerbaijan</item>
+        <item>Nakhichevan - NAJ - Azerbaijan</item>
+        <item>Chub Cay - CCZ - Bahamas</item>
+        <item>Freeport - Grand Bahama International Airport - FPO - Bahamas</item>
+        <item>Govenors Harbour - GHB - Bahamas</item>
+        <item>Grand Bahama International - FPO - Bahamas</item>
+        <item>Marsh Harbour - MHH - Bahamas</item>
+        <item>Nassau - NAS - Bahamas</item>
+        <item>North Eleuthera - ELH - Bahamas</item>
+        <item>Rock Sound - RSD - Bahamas</item>
+        <item>San Salvador - ZSA - Bahamas</item>
+        <item>Treasure Cay - TCB - Bahamas</item>
+        <item>Bahrain - Bahrain International Airport - BAH</item>
+        <item>Barisal - BZL - Bangladesh</item>
+        <item>Chittagong - CGP - Bangladesh</item>
+        <item>Dhaka - Zia International Airport - DAC - Bangladesh</item>
+        <item>Jessore - Jessore Airport - JSR - Bangladesh</item>
+        <item>Sylhet - ZYL - Bangladesh</item>
+        <item>Bridgetown - Grantley Adams International - BGI - Barbados</item>
+        <item>Minsk, International - MSQ - Belarus</item>
+        <item>Antwerp - ANR - Belgium</item>
+        <item>Brussels - Brussels Airport - BRU - Belgium</item>
+        <item>Ghent (Gent) - GNE - Belgium</item>
+        <item>Liege - LGG - Belgium</item>
+        <item>Belize City - Philip S.W.Goldson International - BZE</item>
+        <item>Cotonou - Cotonou Cadjehoun Airport - COO - Benin</item>
+        <item>Bermuda - L.F. Wade International Airport - BDA</item>
+        <item>Paro - PBH - Bhutan</item>
+        <item>Cochabamba - CBB - Bolivia</item>
+        <item>La Paz - El Alto - LPB - Bolivia</item>
+        <item>Santa Cruz de la Sierra - SRZ - Bolivia</item>
+        <item>Santa Rosa - SRB - Bolivia</item>
+        <item>Mostar - OMO - Bosnia and Herzegovina</item>
+        <item>Sarajevo - SJJ - Bosnia and Herzegovina</item>
+        <item>Francistown - FRW - Botswana</item>
+        <item>Gaborone - Sir Seretse Khama International Airport - GBE - Botswana</item>
+        <item>Jwaneng - JWA - Botswana</item>
+        <item>Maun - MUB - Botswana</item>
+        <item>Selibi Phikwe - PKW - Botswana</item>
+        <item>Aracaju - AJU - Brazil</item>
+        <item>Belem - Val de Cans International Airport - BEL - Brazil</item>
+        <item>Belo Horizonte - Tancredo Neves International Airport - CNF - Brazil</item>
+        <item>Boa Vista - BVB - Brazil</item>
+        <item>Brasilia - President Juscelino Kubitschek International - BSB - Brazil</item>
+        <item>Campo Grande - CGR - Brazil</item>
+        <item>Cuiaba - Marechal Rondon International Airport - CGB - Brazil</item>
+        <item>Curitiba - Afonso Pena International Airport - CWB - Brazil</item>
+        <item>Florianopolis - FLN - Brazil</item>
+        <item>Fortaleza - Pinto Martins Airport - FOR - Brazil</item>
+        <item>Goiania, Santa Genoveva Airport - GYN - Brazil</item>
+        <item>Sao Paulo - Guarulhos International - GRU - Brazil</item>
+        <item>Jacobina    - JCM - Brazil</item>
+        <item>Jales - JLS - Brazil</item>
+        <item>Januaria - JNA - Brazil</item>
+        <item>Jatai - JTI - Brazil</item>
+        <item>Joacaba - JCB - Brazil</item>
+        <item>Joao Pessoa - Castro Pinto Airport - JPA - Brazil</item>
+        <item>Joinville - Cubatao Airport - JOI - Brazil</item>
+        <item>Juiz De Fora - Francisco De Assis Airport - JDF - Brazil</item>
+        <item>Macapa - Alberto Alcolumbre International Airport - MCP - Brazil</item>
+        <item>Maceio - Zumbi dos Palmares International Airport - MCZ - Brazil</item>
+        <item>Manaus - Eduardo Gomes International Airport - MAO - Brazil</item>
+        <item>Montenegro - QGF - Brazil</item>
+        <item>Natal - Augusto Severo International Airport - NAT - Brazil</item>
+        <item>Palmas - PMW - Brazil</item>
+        <item>Porto Alegre - Salgado Filho International Airport - POA - Brazil</item>
+        <item>Porto Velho - PVH - Brazil</item>
+        <item>Recife - Guararapes-Gilberto Freyre International - REC - Brazil</item>
+        <item>Rio Branco - Plácido de Castro International Airport - RBR - Brazil</item>
+        <item>Rio de Janeiro - Galeao - GIG - Brazil</item>
+        <item>Rio de Janeiro - Santos Dumont - SDU - Brazil</item>
+        <item>Rio de Janeiro - RIO - Brazil</item>
+        <item>Salvador - Salvador International Airport - SSA - Brazil</item>
+        <item>Santa Rosa - SRA - Brazil</item>
+        <item>Sao Luis - Marechal Cunha Machado International - SLZ - Brazil</item>
+        <item>Sao Paulo - SAO - Brazil</item>
+        <item>Sao Paulo - Congonhas - CGH - Brazil</item>
+        <item>Sao Paulo - Guarulhos - GRU - Brazil</item>
+        <item>Sao Paulo - Viracopos - VCP - Brazil</item>
+        <item>Teresina - THE - Brazil</item>
+        <item>Uberaba - UBA - Brazil</item>
+        <item>Uberlandia - Eduardo Gomes Airport - UDI - Brazil</item>
+        <item>Urubupunga - Ernesto Pochler Airport - URB - Brazil</item>
+        <item>Uruguaiana - Ruben Berta Airport - URG - Brazil</item>
+        <item>Vitoria - Eurico de Aguiar Salles Airport - VIX - Brazil</item>
+        <item>Tortola - TOV - British Virgin Islands</item>
+        <item>Bandar Seri Begawan - Brunei International Airport - BWN</item>
+        <item>Bourgas/Burgas - BOJ - Bulgaria</item>
+        <item>Gorna - GOZ - Bulgaria</item>
+        <item>Jambol - JAM - Bulgaria</item>
+        <item>Ruse - ROU - Bulgaria</item>
+        <item>Silistra - SLS - Bulgaria</item>
+        <item>Sofia - Vrazhdebna - SOF - Bulgaria</item>
+        <item>Targovishte - TGV - Bulgaria</item>
+        <item>Varna - VAR - Bulgaria</item>
+        <item>Vidin - VID - Bulgaria</item>
+        <item>Bobo/Dioulasso - BOY - Burkina Faso</item>
+        <item>Ouagadougou - OUA - Burkina Faso</item>
+        <item>Bujumbura - Bujumbura International Airport - BJM - Burundi</item>
+        <item>Phnom Penh - Pochentong - PNH - Cambodia</item>
+        <item>Douala - DLA - Cameroon</item>
+        <item>Garoua - GOU - Cameroon</item>
+        <item>Maroua - MVR - Cameroon</item>
+        <item>N\'Gaoundere - NGE - Cameroon</item>
+        <item>Yaounde - YAO - Cameroon</item>
+        <item>Attawapiskat, NT - YAT - Canada</item>
+        <item>Bonaventure, PQ - YVB - Canada</item>
+        <item>Calgary - Calgary International Airport - YYC - Canada</item>
+        <item>Cambridge Bay - YCB - Canada</item>
+        <item>Churchill - YYQ - Canada</item>
+        <item>Deer Lake/Corner Brook - YDF - Canada</item>
+        <item>Edmonton - YEA - Canada</item>
+        <item>Edmonton, International - YEG - Canada</item>
+        <item>Edmonton, Municipal - YXD - Canada</item>
+        <item>Flin Flon - YFO - Canada</item>
+        <item>Fort Albert - YFA - Canada</item>
+        <item>Fort McMurray - YMM - Canada</item>
+        <item>Fort Smith - YSM - Canada</item>
+        <item>Fort St. John - YXJ - Canada</item>
+        <item>Fredericton - YFC - Canada</item>
+        <item>Gander - YQX - Canada</item>
+        <item>Gillam - YGX - Canada</item>
+        <item>Goose Bay - YYR - Canada</item>
+        <item>Halifax International - YHZ - Canada</item>
+        <item>Hall Beach - YUX - Canada</item>
+        <item>Hamilton - YHM - Canada</item>
+        <item>Harrington Harbour, PQ - YHR - Canada</item>
+        <item>Inuvik - YEV - Canada</item>
+        <item>Iqaluit (Frobisher Bay) - YFB - Canada</item>
+        <item>Kamloops, BC - YKA - Canada</item>
+        <item>Kaschechawan, PQ - ZKE - Canada</item>
+        <item>Kelowna, BC - YLW - Canada</item>
+        <item>Kuujjuaq (FortChimo) - YVP - Canada</item>
+        <item>Kuujjuarapik - YGW - Canada</item>
+        <item>Lac Brochet, MB - XLB - Canada</item>
+        <item>La Grande - YGL - Canada</item>
+        <item>Leaf Rapids - YLR - Canada</item>
+        <item>London - YXU - Canada</item>
+        <item>Moncton - YQM - Canada</item>
+        <item>Montreal - YMQ - Canada</item>
+        <item>Montreal - Dorval (Montréal-Trudeau) - YUL - Canada</item>
+        <item>Montreal - Mirabel - YMX - Canada</item>
+        <item>Nanisivik - YSR - Canada</item>
+        <item>Norman Wells - YVQ - Canada</item>
+        <item>Ottawa - Hull - YOW - Canada</item>
+        <item>Port Menier, PQ - YPN - Canada</item>
+        <item>Prince George - YXS - Canada</item>
+        <item>Prince Rupert/Digby Island - YPR - Canada</item>
+        <item>Pukatawagan - XPK - Canada</item>
+        <item>Quebec - Quebec International - YQB - Canada</item>
+        <item>Rainbow Lake, AB - YOP - Canada</item>
+        <item>Regina - YQR - Canada</item>
+        <item>Resolute Bay - YRB - Canada</item>
+        <item>Saint John - YSJ - Canada</item>
+        <item>Sandspit - YZP - Canada</item>
+        <item>Saskatoon - YXE - Canada</item>
+        <item>Shamattawa, MB - ZTM - Canada</item>
+        <item>Smithers - YYD - Canada</item>
+        <item>South Indian Lake, MB - XSI - Canada</item>
+        <item>St. Augustin, PQ - YIF - Canada</item>
+        <item>St. John\'s - YYT - Canada</item>
+        <item>St. Pierre, NF - FSP - Canada</item>
+        <item>Terrace - YXT - Canada</item>
+        <item>The Pas - YQD - Canada</item>
+        <item>Thompson - YTH - Canada</item>
+        <item>Thunder Bay - YQT - Canada</item>
+        <item>Toronto - Billy Bishop Toronto City Airport - YTZ - Canada</item>
+        <item>Toronto - Toronto Pearson International Airport - YYZ - Canada</item>
+        <item>Toronto - YTO - Canada</item>
+        <item>Umiujaq - YUD - Canada</item>
+        <item>Uranium City - YBE - Canada</item>
+        <item>Val d\'Or - YVO - Canada</item>
+        <item>Vancouver - Vancouver International - YVR - Canada</item>
+        <item>Victoria - YYJ - Canada</item>
+        <item>Wabush - YWK - Canada</item>
+        <item>Whale Cove, NT - YXN - Canada</item>
+        <item>Whitehorse - YXY - Canada</item>
+        <item>Windsor Ontario - YQG - Canada</item>
+        <item>Winnipeg International - YWG - Canada</item>
+        <item>Yellowknife - YZF - Canada</item>
+        <item>Praia - RAI - Cape Verde</item>
+        <item>Sal - SID - Cape Verde</item>
+        <item>Grand Cayman - Owen Roberts International - GCM - Cayman Islands</item>
+        <item>Bambari - BBY - Central African Republic</item>
+        <item>Bangassou - BGU - Central African Republic</item>
+        <item>Bangui - M\'Poko International Airport - BGF - Central African Republic</item>
+        <item>Berberati - BBT - Central African Republic</item>
+        <item>Biraro - IRO - Central African Republic</item>
+        <item>Bria - BIV - Central African Republic</item>
+        <item>Carnot - CRF - Central African Republic</item>
+        <item>Ouadda - ODA - Central African Republic</item>
+        <item>Abeche - AEH - Chad</item>
+        <item>Moundou - MQQ - Chad</item>
+        <item>N\'Djamena - NDJ - Chad</item>
+        <item>Alderney - ACI - United Kingdom</item>
+        <item>Guernsey - GCI - United Kingdom</item>
+        <item>Jersey - JER - United Kingdom</item>
+        <item>Calama - El Loa - CJC - Chile</item>
+        <item>Easter Island - IPC - Chile</item>
+        <item>Punta Arenas - Presidente Carlos Ibáñez del Campo - PUQ - Chile</item>
+        <item>Santiago de Chile - Arturo Merino Benitez - SCL</item>
+        <item>Valparaiso - VAP - Chile</item>
+        <item>Beijing - PEK - China</item>
+        <item>Beijing - Nanyuan Airport - NAY - China</item>
+        <item>Xiamen - XMN - China</item>
+        <item>Guangzhou (Canton) - Baiyun International Airport - CAN - China</item>
+        <item>Shenzhen - Baoan - SZX - China</item>
+        <item>Guilin - Liangjiang - KWL - China</item>
+        <item>Nanning - NNG - China</item>
+        <item>Harbin (Haerbin) - HRB - China</item>
+        <item>Wuhan - WUH - China</item>
+        <item>Yichang - YIH - China</item>
+        <item>Ji\'an - JGS - China</item>
+        <item>Changchun - CGQ - China</item>
+        <item>Dalian - Zhoushuizi International Airport - DLC - China</item>
+        <item>Shenyang - SHE - China</item>
+        <item>Macau - MFM - China</item>
+        <item>Altay - AAT - China</item>
+        <item>Chaoyang, Beijing - Chaoyang Airport - CHG - China</item>
+        <item>Jiamusi - Jiamusi Airport - JMU - China</item>
+        <item>Jiayuguan - Jiayuguan Airport - JGN - China</item>
+        <item>Jilin - JIL - China</item>
+        <item>Jingdezhen - JDZ - China</item>
+        <item>Jinghong - Gasa Airport - JHG - China</item>
+        <item>Jining - JNG - China</item>
+        <item>Jinjiang - JJN - China</item>
+        <item>Jinzhou - Jinzhou Airport - JNZ - China</item>
+        <item>Jiujiang - Jiujiang Lushan Airport - JIU - China</item>
+        <item>Ulanhot - HLH - China</item>
+        <item>Xi\'an - Xianyang - XIY - China</item>
+        <item>Jinan - TNA - China</item>
+        <item>Qingdao - TAO - China</item>
+        <item>Taiyuan - TYN - China</item>
+        <item>Chengdu - Shuangliu - CTU - China</item>
+        <item>Chongqing - Jiangbei International Airport - CKG - China</item>
+        <item>Shanghai - Hongqiao - SHA - China</item>
+        <item>Shanghai - Pu Dong - PVG - China</item>
+        <item>Tianjin - TSN - China</item>
+        <item>Urumqi - URC - China</item>
+        <item>Luxi - Mangshi - LUM - China</item>
+        <item>Hangchow (Hangzhou) - HGH - China</item>
+        <item>Barranquilla - BAQ - Colombia</item>
+        <item>Bogota - El Nuevo Dorado International Airport - BOG - Colombia</item>
+        <item>Bucaramanga - BGA - Colombia</item>
+        <item>Cali - CLO - Colombia</item>
+        <item>Cartagena - Rafael Núñez International Airport - CTG - Colombia</item>
+        <item>Medellin - MDE - Colombia</item>
+        <item>Pereira - PEI - Colombia</item>
+        <item>San Andres - ADZ - Colombia</item>
+        <item>Santa Rosalia - SSL - Colombia</item>
+        <item>Anjouan - Anjouan Airport - AJN - Comoros (Comores)</item>
+        <item>Moroni - Prince Said Ibrahim - HAH - Comoros (Comores)</item>
+        <item>Moroni - Iconi - YVA - Comoros (Comores)</item>
+        <item>Kinshasa - N\'Djili - FIH - Congo (DRC)</item>
+        <item>Kisangani - FKI - Congo (DRC)</item>
+        <item>Lisala - LIQ - Congo (DRC)</item>
+        <item>Lumbumbashi - FBM - Congo (DRC)</item>
+        <item>Brazzaville - Maya-Maya Airport - BZV - Congo (ROC)</item>
+        <item>Pointe Noire - PNR - Congo (ROC)</item>
+        <item>Rarotonga - RAR - Cook Islands</item>
+        <item>San Jose - SJO - Costa Rica</item>
+        <item>Upala - UPL - Costa Rica</item>
+        <item>Abidjan - ABJ - Cote d\'Ivoire</item>
+        <item>Bouake - BYK - Cote d\'Ivoire</item>
+        <item>Daloa - DJO - Cote d\'Ivoire</item>
+        <item>Korhogo - HGO - Cote d\'Ivoire</item>
+        <item>Man - MJC - Cote d\'Ivoire</item>
+        <item>San Pedro - SPY - Cote d\'Ivoire</item>
+        <item>Sassandra - ZSS - Cote d\'Ivoire</item>
+        <item>Yamoussoukro - ASK - Cote d\'Ivoire</item>
+        <item>Dubrovnik - DBV - Croatia (Hrvatska)</item>
+        <item>Losinj - Losinj Arpt - LSZ - Croatia (Hrvatska)</item>
+        <item>Osijek - OSI - Croatia (Hrvatska)</item>
+        <item>Pula - PUY - Croatia (Hrvatska)</item>
+        <item>Rijeka - RJK - Croatia (Hrvatska)</item>
+        <item>Split - SPU - Croatia (Hrvatska)</item>
+        <item>Zadar - ZAD - Croatia (Hrvatska)</item>
+        <item>Zagreb - Pleso - ZAG - Croatia (Hrvatska)</item>
+        <item>Cienfuegos - Jaime González Airport - CFG - Cuba</item>
+        <item>Havana - José Martí International - HAV - Cuba</item>
+        <item>Holguin - HOG - Cuba</item>
+        <item>Santiago - Antonio Maceo Airport - SCU - Cuba</item>
+        <item>Varadero - VRA - Cuba</item>
+        <item>Akrotiri - RAF - AKT - Cyprus</item>
+        <item>Larnaca - LCA - Cyprus</item>
+        <item>Limassol - QLI - Cyprus</item>
+        <item>Nicosia - NIC - Cyprus</item>
+        <item>Paphos - PFO - Cyprus</item>
+        <item>Prague - Ruzyne - PRG - Czech Republic</item>
+        <item>Uherske Hradiste - UHE - Czech Republic</item>
+        <item>Aarhus - AAR - Denmark</item>
+        <item>Alborg - AAL - Denmark</item>
+        <item>Billund - BLL - Denmark</item>
+        <item>Copenhagen - Copenhagen Airport - CPH - Denmark</item>
+        <item>Esbjerg - EBJ - Denmark</item>
+        <item>Faroer - Vágar Airport - FAE - Denmark</item>
+        <item>Karup - KRP - Denmark</item>
+        <item>Odense - ODE - Denmark</item>
+        <item>Roenne - RNN - Denmark</item>
+        <item>Skrydstrup - SKS - Denmark</item>
+        <item>Soenderborg - SGD - Denmark</item>
+        <item>Thisted - TED - Denmark</item>
+        <item>Djibouti (city) - Djibouti-Ambouli International Airport - JIB</item>
+        <item>Melville Hall - DOM - Dominica</item>
+        <item>La Romana - La Romana International Airport - LRM - Dominican Republic</item>
+        <item>Samana - Samaná El Catey International Airport - AZS - Dominican Republic</item>
+        <item>Puerto Plata - POP - Dominican Republic</item>
+        <item>Punta Cana - Punta Cana International - PUJ - Dominican Republic</item>
+        <item>Santo Domingo - SDQ - Dominican Republic</item>
+        <item>Guayaquil - Simon Bolivar - GYE - Ecuador</item>
+        <item>Jipijapa - JIP - Ecuador</item>
+        <item>Quito - Mariscal Sucre International Airport - UIO - Ecuador</item>
+        <item>Salinas - SNC - Ecuador</item>
+        <item>Abu Rudeis - AUE - Egypt</item>
+        <item>Abu Simbel - ABS - Egypt</item>
+        <item>Al Arish - AAC - Egypt</item>
+        <item>Alexandria - Borg el Arab Airport - HBH - Egypt</item>
+        <item>Alexandria - El Nhouza Airport - ALY - Egypt</item>
+        <item>Assiut - ATZ - Egypt</item>
+        <item>Aswan - Daraw Airport - ASW - Egypt</item>
+        <item>Cairo - Cairo International Airport - CAI - Egypt</item>
+        <item>El Minya - EMY - Egypt</item>
+        <item>Hurghada International - HRG - Egypt</item>
+        <item>Kharga - New Valley - UVL - Egypt</item>
+        <item>Luxor - LXR - Egypt</item>
+        <item>Marsa Alam - RMF - Egypt</item>
+        <item>Marsa Matrah (Marsa Matruh) - MUH - Egypt</item>
+        <item>New Valley - Kharga - UVL - Egypt</item>
+        <item>Port Said - PSD - Egypt</item>
+        <item>Santa Katarina - Mount Sinai - SKV - Egypt</item>
+        <item>Sharm El Sheikh - SSH - Egypt</item>
+        <item>Siwa - SEW - Egypt</item>
+        <item>San Salvador - SAL - El Salvador</item>
+        <item>Malabo - SSG - Equatorial Guinea</item>
+        <item>Asmara - Asmara International - ASM - Eritrea</item>
+        <item>Tallinn - Pirita Harbour - QUF - Estonia</item>
+        <item>Tallinn - Ulemiste - TLL - Estonia</item>
+        <item>Addis Ababa - Bole International Airport - ADD - Ethiopia</item>
+        <item>Jijiga - JIJ - Ethiopia</item>
+        <item>Jimma - JIM - Ethiopia</item>
+        <item>Jinka - Baco/Jinka Airport - BCO - Ethiopia</item>
+        <item>Castaway - CST - Fiji</item>
+        <item>Nadi - NAN - Fiji</item>
+        <item>Suva/Nausori - SUV - Fiji</item>
+        <item>Nausori - SUV - Fiji</item>
+        <item>Enontekioe - ENF - Finland</item>
+        <item>Helsinki - Vantaa - HEL - Finland</item>
+        <item>Ivalo - IVL - Finland</item>
+        <item>Joensuu - JOE - Finland</item>
+        <item>Jyväskylä (Jyvaskyla) - JYV - Finland</item>
+        <item>Kajaani - KAJ - Finland</item>
+        <item>Kauhajoki - KHJ - Finland</item>
+        <item>Kemi/Tornio - KEM - Finland</item>
+        <item>Kittilä - KTT - Finland</item>
+        <item>Kokkola/Pietarsaari - KOK - Finland</item>
+        <item>Kuopio - KUO - Finland</item>
+        <item>Kuusamo - KAO - Finland</item>
+        <item>Lappeenranta - LPP - Finland</item>
+        <item>Mariehamn (Maarianhamina) - MHQ - Finland</item>
+        <item>Mikkeli - MIK - Finland</item>
+        <item>Oulu - OUL - Finland</item>
+        <item>Pori - POR - Finland</item>
+        <item>Rovaniemi - RVN - Finland</item>
+        <item>Savonlinna - SVL - Finland</item>
+        <item>Seinaejoki - SJY - Finland</item>
+        <item>Sodankylae - SOT - Finland</item>
+        <item>Tampere - TMP - Finland</item>
+        <item>Turku - TKU - Finland</item>
+        <item>Vaasa - VAA - Finland</item>
+        <item>Varkaus - VRK - Finland</item>
+        <item>Ajaccio - AJA - France</item>
+        <item>Albi - LBI - France</item>
+        <item>Annecy - NCY - France</item>
+        <item>Aurillac - AUR - France</item>
+        <item>Bastia - BIA - France</item>
+        <item>Bergerac - Roumanieres - EGC - France</item>
+        <item>Biarritz - BIQ - France</item>
+        <item>Bordeaux - Bordeaux Airport - BOD - France</item>
+        <item>Brest - BES - France</item>
+        <item>Calvi - CLY - France</item>
+        <item>Cannes – Mandelieu Airport - CEQ - France</item>
+        <item>Chambery - CMF - France</item>
+        <item>Clermont Ferrand - CFE - France</item>
+        <item>Dinard - DNR - France</item>
+        <item>Disneyland Paris - DLP - France</item>
+        <item>Figari - FSC - France</item>
+        <item>Frejus - FRJ - France</item>
+        <item>Grenoble - GNB - France</item>
+        <item>La Rochelle - LRH - France</item>
+        <item>Lannion - LAI - France</item>
+        <item>Lille - Lille Airport - LIL - France</item>
+        <item>Limoges - LIG - France</item>
+        <item>Lorient - LRT - France</item>
+        <item>Lourdes/Tarbes - LDE - France</item>
+        <item>Lyon - Lyon-Saint Exupéry Airport official website - LYS - France</item>
+        <item>Marseille - Marseille Provence Airport - MRS - France</item>
+        <item>Metz -  Frescaty - MZM - France</item>
+        <item>Metz/Nancy Metz-Nancy-Lorraine - ETZ - France</item>
+        <item>Montpellier - Montpellier–Méditerranée Airport - MPL - France</item>
+        <item>Mulhouse - MLH - France</item>
+        <item>Nancy - ENC - France</item>
+        <item>Nantes - Nantes Atlantique Airport - NTE - France</item>
+        <item>Nice - Cote D\'Azur Airport - NCE - France</item>
+        <item>Nimes - FNI - France</item>
+        <item>Paris - PAR - France</item>
+        <item>Paris - Charles de Gaulle - CDG - France</item>
+        <item>Paris - Le Bourget - LBG - France</item>
+        <item>Paris - Orly - ORY - France</item>
+        <item>Pau - PUF - France</item>
+        <item>Perpignan - PGF - France</item>
+        <item>Poitiers - Biard - PIS - France</item>
+        <item>Quimper - UIP - France</item>
+        <item>Rennes - RNS - France</item>
+        <item>Roanne - RNE - France</item>
+        <item>Rodez - RDZ - France</item>
+        <item>Saint Brieuc - SBK - France</item>
+        <item>St. Etienne - EBU - France</item>
+        <item>Strasbourg - Strasbourg Airport - SXB - France</item>
+        <item>Toulouse - Blagnac Airport - TLS - France</item>
+        <item>Cayenne - Cayenne-Rochambeau Airport - CAY - French Guiana</item>
+        <item>Bora Bora - BOB - French Polynesia</item>
+        <item>Huahine - HUH - French Polynesia</item>
+        <item>Manihi - XMH - French Polynesia</item>
+        <item>Maupiti - MAU - French Polynesia</item>
+        <item>Moorea - MOZ - French Polynesia</item>
+        <item>Raiatea - RFP - French Polynesia</item>
+        <item>Rangiroa - RGI - French Polynesia</item>
+        <item>Ua Huka - UAH - French Polynesia</item>
+        <item>Ua Pou - UAP - French Polynesia</item>
+        <item>Papeete - Faaa - PPT - French Polynesia</item>
+        <item>Lambarene - LBQ - Gabon</item>
+        <item>Libreville - LBV - Gabon</item>
+        <item>Moanda - MFF - Gabon</item>
+        <item>Mouila - MJL - Gabon</item>
+        <item>Mvengue - MVB - Gabon</item>
+        <item>Port Gentil - POG - Gabon</item>
+        <item>Oyem - UVE - Gabon</item>
+        <item>Banjul - Banjul International Airport (Yundum International) - BJL - Gambia</item>
+        <item>Tbilisi - Novo Alexeyevka - TBS - Georgia</item>
+        <item>Augsburg - Augsbur gAirport - AGB - Germany</item>
+        <item>Bayreuth - Bindlacher-Berg - BYU - Germany</item>
+        <item>Berlin - BER - Germany</item>
+        <item>Berlin, Schoenefeld - SXF - Germany</item>
+        <item>Berlin, Tegel - TXL - Germany</item>
+        <item>Berlin, Tempelhof (ceased operating in 2008) - THF - Germany</item>
+        <item>Bremen - Bremen Airport (Flughafen Bremen) - BRE - Germany</item>
+        <item>Cottbus - Cottbus-Drewitz Airport - CBU - Germany</item>
+        <item>Cologne - Cologne Airport (Flughafen Köln/Bonn) - CGN - Germany</item>
+        <item>Dortmund - DTM - Germany</item>
+        <item>Dresden - Dresden Airport - DRS - Germany</item>
+        <item>Duesseldorf - Düsseldorf International Airport - DUS - Germany</item>
+        <item>Erfurt - Erfurt Airport (Flughafen Erfurt) - ERF - Germany</item>
+        <item>Frankfurt/Main - Frankfurt Airport (Rhein-Main-Flughafen) - FRA - Germany</item>
+        <item>Frankfurt/Hahn - HHN - Germany</item>
+        <item>Friedrichshafen - Bodensee-Airport Friedrichshafen - FDH - Germany</item>
+        <item>Guettin - GTI - Germany</item>
+        <item>Hamburg - Fuhlsbuettel - HAM - Germany</item>
+        <item>Hannover - HAJ - Germany</item>
+        <item>Hof - HOQ - Germany</item>
+        <item>Juist (island) - JUI - Germany</item>
+        <item>Karlsruhe-Baden - Soellingen - FKB - Germany</item>
+        <item>Kiel - Holtenau - KEL - Germany</item>
+        <item>Köln, Köln/Bonn - CGN - Germany</item>
+        <item>Leipzig - LEJ - Germany</item>
+        <item>Muenchen (Munich) - Franz Josef Strauss - MUC - Germany</item>
+        <item>Muenster/Osnabrueck - FMO - Germany</item>
+        <item>Nürnberg (Nuremberg) - NUE - Germany</item>
+        <item>Paderborn/Lippstadt - PAD - Germany</item>
+        <item>Saarbruecken - SCN - Germany</item>
+        <item>Stuttgart - Echterdingen - STR - Germany</item>
+        <item>Westerland, Sylt Airport - GWT - Germany</item>
+        <item>Wiesbaden, Air Base - WIE - Germany</item>
+        <item>Accra - Kotoka International Airport - ACC - Ghana</item>
+        <item>Gibraltar - GIB</item>
+        <item>Araxos - GPA - Greece</item>
+        <item>Athens - Elefthérios Venizélos International Airport - ATH - Greece</item>
+        <item>Athens, Hellinikon Airport - HEW - Greece</item>
+        <item>Chania - CHQ - Greece</item>
+        <item>Chios - JKH - Greece</item>
+        <item>Corfu - CFU - Greece</item>
+        <item>Heraklion - HER - Greece</item>
+        <item>Kalamata - KLX - Greece</item>
+        <item>Karpathos - AOK - Greece</item>
+        <item>Kavalla - KVA - Greece</item>
+        <item>Kos - KGS - Greece</item>
+        <item>Mykonos - JMK - Greece</item>
+        <item>Mytilene (Lesbos) - MJT - Greece</item>
+        <item>Naxos - Naxos Airport - JNX - Greece</item>
+        <item>Preveza/Lefkas - PVK - Greece</item>
+        <item>Rhodos - RHO - Greece</item>
+        <item>Saloniki - SKG - Greece</item>
+        <item>Samos - SMI - Greece</item>
+        <item>Skiathos - JSI - Greece</item>
+        <item>Thessaloniki - Makedonia Apt. - SKG - Greece</item>
+        <item>Thira - JTR - Greece</item>
+        <item>Zakynthos - ZTH - Greece</item>
+        <item>Narsarsuaq - UAK - Greenland</item>
+        <item>Soendre Stroemfjord - SFJ - Greenland</item>
+        <item>Upernavik - Upernavik Heliport - JUV - Greenland</item>
+        <item>Uummannaq - UMD - Greenland</item>
+        <item>Grenada - Point Salines Airport also Maurice Bishop - GND</item>
+        <item>Basse-Terre - Pointe-à-Pitre International Airport - PTP - Guadeloupe</item>
+        <item>Pointe a Pitre - PTP - Guadeloupe</item>
+        <item>Agana (Hagåtña) - SUM - Guam</item>
+        <item>Guam - GUM</item>
+        <item>Hagåtña - Guam International Airport - GUM</item>
+        <item>Guatemala City - La Aurora International Airport - GUA</item>
+        <item>Conakry - Conakry International Airport - CKY - Guinea</item>
+        <item>Labe - LEK - Guinea</item>
+        <item>Bissau - Osvaldo Vieiro International Airport - BXO - Guinea-Bissau</item>
+        <item>Georgetown - Cheddi Jagan International Airport - GEO - Guyana</item>
+        <item>Jacmel    - JAK - Haiti</item>
+        <item>Jeremie - Jeremie Airport - JEE - Haiti</item>
+        <item>Port au Prince - PAP - Haiti</item>
+        <item>Sapporo - SPK - Japan</item>
+        <item>Sapporo - Okadama - OKD - Japan</item>
+        <item>Juticalpa - JUT - Honduras</item>
+        <item>Roatan - RTB - Honduras</item>
+        <item>San Pedro Sula - SAP - Honduras</item>
+        <item>Santa Rosa, Copan - SDH - Honduras</item>
+        <item>Tegucigalpa - TGU - Honduras</item>
+        <item>Utila - UII - Honduras</item>
+        <item>Hong Kong - International Airport (HKIA) - HKG</item>
+        <item>Hong Kong - Chek Lap Kok - ZJK</item>
+        <item>Budapest - Budapest Ferihegy International Airport - BUD - Hungary</item>
+        <item>Ibiza - IBZ - Spain</item>
+        <item>Egilsstadir - EGS - Iceland</item>
+        <item>Reykjavik - Metropolitan Area - REK - Iceland</item>
+        <item>Reykjavik - Keflavik International - KEF - Iceland</item>
+        <item>Ahmedabad - AMD - India</item>
+        <item>Amritsar - ATQ - India</item>
+        <item>Anand - QNB - India</item>
+        <item>Bagdogra - IXB - India</item>
+        <item>Bangalore - BLR - India</item>
+        <item>Baroda - BDQ - India</item>
+        <item>Belgaum - IXG - India</item>
+        <item>Bhopal - BHO - India</item>
+        <item>Bhubaneswar - BBI - India</item>
+        <item>Bombay (Mumbai) - Chhatrapati Shivaji International - BOM - India</item>
+        <item>Calcutta (Kolkata) - Netaji Subhas Chandra - CCU - India</item>
+        <item>Calicut - CCJ - India</item>
+        <item>Chandigarh - Chandigarh International Airport - IXC - India</item>
+        <item>Chennai (Madras) - MAA - India</item>
+        <item>Cochin - COK - India</item>
+        <item>Coimbatore - CJB - India</item>
+        <item>Delhi - Indira Gandhi International Airport - DEL - India</item>
+        <item>Goa - GOI - India</item>
+        <item>Guwahati - GAU - India</item>
+        <item>Hyderabad - Rajiv Gandhi International Airport - HYD - India</item>
+        <item>Jagdalpur - JGB - India</item>
+        <item>Jaipur - Sanganeer - JAI - India</item>
+        <item>Jaisalmer    - JSA - India</item>
+        <item>Jalandhar - JLR - India</item>
+        <item>Jammu - Satwari - IXJ - India</item>
+        <item>Jamnagar - Govardhanpur - JGA - India</item>
+        <item>Jamshedpur - Sonari Airport - IXW - India</item>
+        <item>Jeypore - Jeypore Airport - PYB - India</item>
+        <item>Jodhpur - JDH - India</item>
+        <item>Jorhat - Rowriah Airport - JRH - India</item>
+        <item>Kanpur - KNU - India</item>
+        <item>Kolkata (Calcutta) - Netaji Subhas Chandra - CCU - India</item>
+        <item>Lucknow - LKO - India</item>
+        <item>Madras (Chennai) - MAA - India</item>
+        <item>Mysore - MYQ - India</item>
+        <item>Nagpur - NAG - India</item>
+        <item>Patna - PAT - India</item>
+        <item>Rajkot - RAJ - India</item>
+        <item>Ranchi - IXR - India</item>
+        <item>Srinagar - SXR - India</item>
+        <item>Surat - STV - India</item>
+        <item>Thiruvananthapuram - TRV - India</item>
+        <item>Tiruchirapally - TRZ - India</item>
+        <item>Udaipur - Dabok Airport - UDR - India</item>
+        <item>Varanasi - VNS - India</item>
+        <item>Pune - PNQ - India</item>
+        <item>Ayawasi - AYW - Indonesia</item>
+        <item>Bandung - Husein Sastranegara International Airport - BDO - Indonesia</item>
+        <item>Denpasar/Bali - DPS - Indonesia</item>
+        <item>Jakarta - Halim Perdana Kusuma - HLP - Indonesia</item>
+        <item>Jakarta - Metropolitan Area - JKT - Indonesia</item>
+        <item>Jakarta - Soekarno-Hatta International - CGK - Indonesia</item>
+        <item>Jayapura - Sentani - DJJ - Indonesia</item>
+        <item>Medan - Polania Int\'l (now Soewondo AFB) - MES - Indonesia</item>
+        <item>Medan - Kualanamu International - KNO - Indonesia</item>
+        <item>Manado - MDC - Indonesia</item>
+        <item>Surabaya - Juanda - SUB - Indonesia</item>
+        <item>Tioman - TOD - Indonesia</item>
+        <item>Ujung Pandang - Hasanudin Airport - UPG - Indonesia</item>
+        <item>Jambi - Sultan Taha Syarifudn - DJB - Indonesia</item>
+        <item>Abadan - ABD - Iran</item>
+        <item>Tehran (Teheran) - Mehrabad - THR - Iran</item>
+        <item>Urmiehm (Orumieh) - OMH - Iran</item>
+        <item>Bagdad - Baghdad International Airport - BGW - Iraq</item>
+        <item>Basra, Basrah - BSR - Iraq</item>
+        <item>Kirkuk - KIK - Iraq</item>
+        <item>Mosul - OSM - Iraq</item>
+        <item>Cork - ORK - Ireland</item>
+        <item>Donegal (Carrickfin) - CFN - Ireland</item>
+        <item>Dublin - Dublin International Airport - DUB - Ireland</item>
+        <item>Galway - GWY - Ireland</item>
+        <item>Kerry County - KIR - Ireland</item>
+        <item>Knock - NOC - Ireland</item>
+        <item>Shannon (Limerick) - SNN - Ireland</item>
+        <item>Sligo - SXL - Ireland</item>
+        <item>Elat - ETH - Israel</item>
+        <item>Elat, Ovula - VDA - Israel</item>
+        <item>Haifa - HFA - Israel</item>
+        <item>Jerusalem - Atarot Airport (closed) - JRS - Israel</item>
+        <item>Tel Aviv - Ben Gurion International - TLV - Israel</item>
+        <item>Alghero Sassari - AHO - Italy</item>
+        <item>Ancona - Ancona Falconara Airport - AOI - Italy</item>
+        <item>Bari - BRI - Italy</item>
+        <item>Bergamo/Milan - Orio Al Serio - BGY - Italy</item>
+        <item>Bologna - BLQ - Italy</item>
+        <item>Brescia, Montichiari - VBS - Italy</item>
+        <item>Brindisi - BDS - Italy</item>
+        <item>Cagliari - CAG - Italy</item>
+        <item>Catania - CTA - Italy</item>
+        <item>Elba Island, Marina Di Campo - EBA - Italy</item>
+        <item>Florence (Firenze) - Peretola Airport - FLR - Italy</item>
+        <item>Genoa - GOA - Italy</item>
+        <item>Lamezia Terme - SUF - Italy</item>
+        <item>Lampedusa - LMP - Italy</item>
+        <item>Milan - MIL - Italy</item>
+        <item>Milan - Linate - LIN - Italy</item>
+        <item>Milan - Malpensa - MXP - Italy</item>
+        <item>Milan - Orio Al Serio - BGY - Italy</item>
+        <item>Naples - Naples Capodichino Airport - NAP - Italy</item>
+        <item>Olbia - OLB - Italy</item>
+        <item>Palermo - Punta Raisi - PMO - Italy</item>
+        <item>Pantelleria - PNL - Italy</item>
+        <item>Perugia - PEG - Italy</item>
+        <item>Pescara - PSR - Italy</item>
+        <item>Pisa - Galileo Galilei - PSA - Italy</item>
+        <item>Reggio Calabria - REG - Italy</item>
+        <item>Rimini - RMI - Italy</item>
+        <item>Rome - ROM - Italy</item>
+        <item>Rome - Ciampino - CIA - Italy</item>
+        <item>Rome - Fuimicino - FCO - Italy</item>
+        <item>Trapani - TPS - Italy</item>
+        <item>Treviso - TSF - Italy</item>
+        <item>Trieste - TRS - Italy</item>
+        <item>Turin - TRN - Italy</item>
+        <item>Venice - Marco Polo - VCE - Italy</item>
+        <item>Verona (Brescia) Montichiari - VBS - Italy</item>
+        <item>Verona - VRN - Italy</item>
+        <item>Kingston - Norman Manley - KIN - Jamaica</item>
+        <item>Montego Bay - Sangster International - MBJ - Jamaica</item>
+        <item>Akita - AXT - Japan</item>
+        <item>Amami - ASJ - Japan</item>
+        <item>Aomori - AOJ - Japan</item>
+        <item>Chiba City - QCB - Japan</item>
+        <item>Sapporo - New Chitose Airport - CTS - Japan</item>
+        <item>Fukuoka - FUK - Japan</item>
+        <item>Fukushima - Fukushima Airport - FKS - Japan</item>
+        <item>Hachijo Jima - HAC - Japan</item>
+        <item>Hakodate - HKD - Japan</item>
+        <item>Hiroshima International - HIJ - Japan</item>
+        <item>Ishigaki - New Ishigaki Airport - ISG - Japan</item>
+        <item>Kagoshima - KOJ - Japan</item>
+        <item>Kobe - UKB - Japan</item>
+        <item>Kochi - KCZ - Japan</item>
+        <item>Komatsu - KMQ - Japan</item>
+        <item>Kumamoto - KMJ - Japan</item>
+        <item>Kushiro - KUH - Japan</item>
+        <item>Kyoto - UKY - Japan</item>
+        <item>Matsumoto, Nagano - MMJ - Japan</item>
+        <item>Matsuyama - MYJ - Japan</item>
+        <item>Miyako Jima (Ryuku Islands) - Hirara - MMY - Japan</item>
+        <item>Miyazaki - KMI - Japan</item>
+        <item>Morioka, Hanamaki - HNA - Japan</item>
+        <item>Nagasaki - NGS - Japan</item>
+        <item>Nagoya - Komaki AFB - NGO - Japan</item>
+        <item>Niigata - KIJ - Japan</item>
+        <item>Oita - OIT - Japan</item>
+        <item>Okayama - OKJ - Japan</item>
+        <item>Okinawa, Ryukyo Island - Naha - OKA - Japan</item>
+        <item>Osaka, Metropolitan Area - OSA - Japan</item>
+        <item>Osaka - Itami - ITM - Japan</item>
+        <item>Osaka - Kansai International Airport - KIX - Japan</item>
+        <item>Sado Shima - SDS - Japan</item>
+        <item>Sapporo - New Chitose Airport - CTS - Japan</item>
+        <item>Sendai - SDJ - Japan</item>
+        <item>Takamatsu - TAK - Japan</item>
+        <item>Tokushima - TKS - Japan</item>
+        <item>Tokyo - TYO - Japan</item>
+        <item>Tokyo - Haneda - HND - Japan</item>
+        <item>Tokyo - Narita - NRT - Japan</item>
+        <item>Toyama - TOY - Japan</item>
+        <item>Ube - UBJ - Japan</item>
+        <item>Yamagata, Junmachi - GAJ - Japan</item>
+        <item>Yokohama - YOK - Japan</item>
+        <item>Amman - Queen Alia International Airport - AMM - Jordan</item>
+        <item>Amman - Amman-Marka International Airport - ADJ - Jordan</item>
+        <item>Aqaba - AQJ - Jordan</item>
+        <item>Almaty (Alma Ata) - Almaty International Airport - ALA - Kazakhstan</item>
+        <item>Astana - Astana International Airport - TSE - Kazakhstan</item>
+        <item>Malindi - MYD - Kenya</item>
+        <item>Mombasa - Moi International - MBA - Kenya</item>
+        <item>Nairobi - NBO - Kenya</item>
+        <item>King Island - KNS - Australia</item>
+        <item>Kiritimati (island) - Cassidy International Airport - CXI - Kiribati</item>
+        <item>Incheon, Incheon International Airport - ICN - South Korea</item>
+        <item>Kuwait - Kuwait International - KWI</item>
+        <item>Bishkek - Manas International Airport - FRU - Kyrgyzstan</item>
+        <item>Vientiane - Wattay - VTE - Laos</item>
+        <item>Riga - RIX - Latvia</item>
+        <item>Beirut - Beirut Rafic Hariri International Airport - BEY - Lebanon</item>
+        <item>Maseru - Moshoeshoe International - MSU - Lesotho</item>
+        <item>Monrovia - Metropolitan Area - MLW - Liberia</item>
+        <item>Monrovia - Roberts International - ROB - Liberia</item>
+        <item>Benghazi (Bengasi) - BEN - Libya</item>
+        <item>Sehba - SEB - Libya</item>
+        <item>Tripoli - Tripoli International - TIP - Libya</item>
+        <item>Vilnius - VNO - Lithuania</item>
+        <item>Wilna (Vilnius) - VNO - Lithuania</item>
+        <item>Lifou - LIF - New Caledonia</item>
+        <item>Luxembourg - LUX</item>
+        <item>Ohrid - OHD - Macedonia</item>
+        <item>Skopje - SKP - Macedonia</item>
+        <item>Antananarivo (Tanannarive) - Ivato International Airport - TNR - Madagascar</item>
+        <item>Majunga - MJN - Madagascar</item>
+        <item>Blantyre (Mandala) - Chileka International Airport - BLZ - Malawi</item>
+        <item>Lilongwe - Lilongwe International - LLW - Malawi</item>
+        <item>Bintulu - BTU - Malaysia</item>
+        <item>Johor Bahru - Sultan Ismail International - JHB - Malaysia</item>
+        <item>Kota Kinabalu - BKI - Malaysia</item>
+        <item>Kuala Lumpur - International Airport - KUL - Malaysia</item>
+        <item>Kuala Lumpur - Sultan Abdul Aziz Shah - SZB - Malaysia</item>
+        <item>Kuantan - KUA - Malaysia</item>
+        <item>Kuching - KCH - Malaysia</item>
+        <item>Labuan - LBU - Malaysia</item>
+        <item>Langkawi (islands) - LGK - Malaysia</item>
+        <item>Miri - MYY - Malaysia</item>
+        <item>Penang International - PEN - Malaysia</item>
+        <item>Sibu - SBW - Malaysia</item>
+        <item>Tawau - TWU - Malaysia</item>
+        <item>Male - International - MLE - Maledives</item>
+        <item>Bamako - Bamako-Sénou International Airport - BKO - Mali</item>
+        <item>Luga - MLA - Malta</item>
+        <item>Jaluit Island   - UIT - Marshall Islands</item>
+        <item>Fort de France - Martinique Aimé Césaire International - FDF</item>
+        <item>Nouadhibou - NDB - Mauritania</item>
+        <item>Nouakchott - NKC - Mauritania</item>
+        <item>Zouerate - OUZ - Mauritania</item>
+        <item>Mauritius - S.Seewoosagur Ram International - MRU</item>
+        <item>Rodrigues Island - RRG - Mauritius</item>
+        <item>Dzaoudzi - DZA - Mayotte</item>
+        <item>Acapulco - ACA - Mexico</item>
+        <item>Aguascaliente - AGU - Mexico</item>
+        <item>Cancun - CUN - Mexico</item>
+        <item>Chichen Itza - CZA - Mexico</item>
+        <item>Chihuahua, Gen Fierro Villalobos - CUU - Mexico</item>
+        <item>Ciudad Del Carmen - CME - Mexico</item>
+        <item>Ciudad Juarez - CJS - Mexico</item>
+        <item>Ciudad Obregon - CEN - Mexico</item>
+        <item>Ciudad Victoria - CVM - Mexico</item>
+        <item>Colima - CLQ - Mexico</item>
+        <item>Cozmel - CZM - Mexico</item>
+        <item>Culiacan - CUL - Mexico</item>
+        <item>Guadalajara - GDL - Mexico</item>
+        <item>Hermosillo - Gen. Pesqueira Garcia - HMO - Mexico</item>
+        <item>Huatulco - HUX - Mexico</item>
+        <item>Ixtapa/Zihuatenejo - ZIH - Mexico</item>
+        <item>Jalapa - JAL - Mexico</item>
+        <item>La Paz - Leon - LAP - Mexico</item>
+        <item>Lazaro Cardenas - LZC - Mexico</item>
+        <item>Leon - BJX - Mexico</item>
+        <item>Loreto - LTO - Mexico</item>
+        <item>Los Cabos - SJD - Mexico</item>
+        <item>Los Mochis - LMM - Mexico</item>
+        <item>Manzanillo - ZLO - Mexico</item>
+        <item>Mazatlan - MZT - Mexico</item>
+        <item>Merida - MID - Mexico</item>
+        <item>Mexicali - MXL - Mexico</item>
+        <item>Mexico City - Mexico City International Airport - MEX</item>
+        <item>Mexico City - Atizapan - AZP</item>
+        <item>Mexico City - Juarez International - MEX</item>
+        <item>Mexico City - Santa Lucia - NLU</item>
+        <item>Minatitlan - MTT - Mexico</item>
+        <item>Monterrey - Gen. Mariano Escobedo - MTY - Mexico</item>
+        <item>Monterrey - Aeropuerto Del Norte - NTR - Mexico</item>
+        <item>Morelia - MLM - Mexico</item>
+        <item>Nuevo Laredo - NLD - Mexico</item>
+        <item>Oaxaca - Xoxocotlan - OAX - Mexico</item>
+        <item>Puebla - PBC - Mexico</item>
+        <item>Puerto Escondido - PXM - Mexico</item>
+        <item>Puerto Vallarta - PVR - Mexico</item>
+        <item>San Jose Cabo - SJD - Mexico</item>
+        <item>San Luis Potosi - SLP - Mexico</item>
+        <item>Santa Rosalia - SRL - Mexico</item>
+        <item>Tampico - Gen. F. Javier Mina - TAM - Mexico</item>
+        <item>Tijuana - Rodriguez - TIJ - Mexico</item>
+        <item>Tuxtla Gutierrez - TGZ - Mexico</item>
+        <item>Uruapan - UPN - Mexico</item>
+        <item>Veracruz - VER - Mexico</item>
+        <item>Villahermosa - VSA - Mexico</item>
+        <item>Zacatecas - ZCL - Mexico</item>
+        <item>Pohnpei - PNI - Micronesia</item>
+        <item>Chisinau - Chişinău International Airport - KIV - Moldova</item>
+        <item>Ulaanbaatar - Buyant Uhaa Airport - ULN - Mongolia</item>
+        <item>Podgorica - TGD - Montenegro</item>
+        <item>Tivat - TIV - Montenegro</item>
+        <item>Agadir - AGA - Morocco</item>
+        <item>Al Hoceima - AHU - Morocco</item>
+        <item>Casablanca - CAS - Morocco</item>
+        <item>Casablanca, Mohamed V - CMN - Morocco</item>
+        <item>Fes - FEZ - Morocco</item>
+        <item>Marrakesh - Menara Airport - RAK - Morocco</item>
+        <item>Ouarzazate - OZZ - Morocco</item>
+        <item>Oujda - OUD - Morocco</item>
+        <item>Rabat - Sale - RBA - Morocco</item>
+        <item>Tangier - Boukhalef - TNG - Morocco</item>
+        <item>Beira - BEW - Mozambique</item>
+        <item>Maputo - Maputo International - MPM - Mozambique</item>
+        <item>Mandalay - Annisaton - MDL - Myanmar</item>
+        <item>Rangoon (Yangon) - Mingaladon - RGN - Myanmar</item>
+        <item>Yangon (Rangoon) - Mingaladon - RGN - Myanmar</item>
+        <item>Katima Mulilo/Mpacha - MPA - Namibia</item>
+        <item>Keetmanshoop - KMP - Namibia</item>
+        <item>Luederitz - LUD - Namibia</item>
+        <item>Mokuti - OKU - Namibia</item>
+        <item>Ondangwa - OND - Namibia</item>
+        <item>Oranjemund - OMD - Namibia</item>
+        <item>Rundu - NDU - Namibia</item>
+        <item>Swakopmund - SWP - Namibia</item>
+        <item>Tsumeb - TSB - Namibia</item>
+        <item>Windhoek - Eros - ERS - Namibia</item>
+        <item>Windhoek - Hosea Kutako International - WDH - Namibia</item>
+        <item>Janakpur - JKR - Nepal</item>
+        <item>Jiri - JIR - Nepal</item>
+        <item>Jomsom - JMO - Nepal</item>
+        <item>Jumla - JUM - Nepal</item>
+        <item>Kathmandu - Tribhuvan International Airport - KTM - Nepal</item>
+        <item>Amsterdam - Amsterdam Airport Schiphol - AMS - Netherlands</item>
+        <item>Den Haag (The Hague) - HAG - Netherlands</item>
+        <item>Eindhoven - EIN - Netherlands</item>
+        <item>Groningen - Eelde - GRQ - Netherlands</item>
+        <item>Lelystad - LEY - Netherlands</item>
+        <item>Maastricht/Aachen - MST - Netherlands</item>
+        <item>Rotterdam - RTM - Netherlands</item>
+        <item>Uden - Volkel Airport - UDE - Netherlands</item>
+        <item>Bonaire - BON - Netherlands Antilles</item>
+        <item>Curacao - Curaçao International Airport - CUR - Netherlands Antilles</item>
+        <item>St. Marteen - SXM - Netherlands Antilles</item>
+        <item>Ile des Pins - ILP - New Caledonia</item>
+        <item>Ile Ouen - IOU - New Caledonia</item>
+        <item>Mare - MEE - New Caledonia</item>
+        <item>Noumea - NOU - New Caledonia</item>
+        <item>Touho - TOU - New Caledonia</item>
+        <item>Auckland - Auckland International Airport - AKL - New Zealand</item>
+        <item>Blenheim - BHE - New Zealand</item>
+        <item>Christchurch - CHC - New Zealand</item>
+        <item>Dunedin - DUD - New Zealand</item>
+        <item>Hamilton - HLZ - New Zealand</item>
+        <item>Incercargill - IVC - New Zealand</item>
+        <item>Invercargill - IVC - New Zealand</item>
+        <item>Milford Sound - MFN - New Zealand</item>
+        <item>Mount Cook - GTN - New Zealand</item>
+        <item>Nelson - NSN - New Zealand</item>
+        <item>Palmerston North - PMR - New Zealand</item>
+        <item>Queenstown - ZQN - New Zealand</item>
+        <item>Rotorua - ROT - New Zealand</item>
+        <item>Te Anau - TEU - New Zealand</item>
+        <item>Wellington - WLG - New Zealand</item>
+        <item>Whakatane - WHK - New Zealand</item>
+        <item>Whangarei - WRE - New Zealand</item>
+        <item>Managua - Augusto C Sandino - MGA - Nicaragua</item>
+        <item>Agades - AJY - Niger</item>
+        <item>Arlit - RLT - Niger</item>
+        <item>Maradi - MFQ - Niger</item>
+        <item>Niamey - NIM - Niger</item>
+        <item>Zinder - ZND - Niger</item>
+        <item>Abuja - Nnamdi Azikiwe International Airport - ABV - Nigeria</item>
+        <item>Jos - JOS - Nigeria</item>
+        <item>Kano - KAN - Nigeria</item>
+        <item>Lagos - Murtala Muhammed - LOS - Nigeria</item>
+        <item>Port Harcourt - PHC - Nigeria</item>
+        <item>Pyongyang - Sunan International Airport - FNJ - North Korea</item>
+        <item>Saipan - SPN - Northern Mariana Islands</item>
+        <item>Alesund - AES - Norway</item>
+        <item>Alta - ALF - Norway</item>
+        <item>Bardufoss - BDU - Norway</item>
+        <item>Bergen - BGO - Norway</item>
+        <item>Bodo - BOO - Norway</item>
+        <item>Broennoeysund - BNN - Norway</item>
+        <item>Evenes - EVE - Norway</item>
+        <item>Floro - FRO - Norway</item>
+        <item>Hammerfest - HFT - Norway</item>
+        <item>Haugesund - HAU - Norway</item>
+        <item>Kirkenes - KKN - Norway</item>
+        <item>Kristiansand - KRS - Norway</item>
+        <item>Kristiansund - KSU - Norway</item>
+        <item>Lakselv - LKL - Norway</item>
+        <item>Oslo - Oslo Airport, Gardermoen - OSL - Norway</item>
+        <item>Oslo - Fornebu - FBU - Norway</item>
+        <item>Oslo - Sandefjord - TRF - Norway</item>
+        <item>Sogndal - SOG - Norway</item>
+        <item>Stavanger - SVG - Norway</item>
+        <item>Tromsoe - TOS - Norway</item>
+        <item>Trondheim - TRD - Norway</item>
+        <item>Muscat - Seeb - MCT - Oman</item>
+        <item>Salalah - SLL - Oman</item>
+        <item>Bahawalpur - BHV - Pakistan</item>
+        <item>Bannu - BNP - Pakistan</item>
+        <item>Chitral - CJL - Pakistan</item>
+        <item>Dera Ismail Khan - Dera Ismail Khan Airport - DSK - Pakistan</item>
+        <item>Faisalabad - LYP - Pakistan</item>
+        <item>Gilgit - GIL - Pakistan</item>
+        <item>Gwadar - GWD - Pakistan</item>
+        <item>Hyderabad - HDD - Pakistan</item>
+        <item>Islamabad - Benazir Bhutto International Airport - ISB - Pakistan</item>
+        <item>Jacobabad - JAG - Pakistan</item>
+        <item>Jiwani - JIW - Pakistan</item>
+        <item>Karachi - Jinnah International Airport - KHI - Pakistan</item>
+        <item>Khuzdar - KDD - Pakistan</item>
+        <item>Kohat - OHT - Pakistan</item>
+        <item>Lahore - LHE - Pakistan</item>
+        <item>Mianwali - MWD - Pakistan</item>
+        <item>Mirpur - QML - Pakistan</item>
+        <item>Moenjodaro - MJD - Pakistan</item>
+        <item>Multan - MUX - Pakistan</item>
+        <item>Muzaffarabad - MFG - Pakistan</item>
+        <item>Nawab Shah - WNS - Pakistan</item>
+        <item>Panjgur - PJG - Pakistan</item>
+        <item>Pasni - PSI - Pakistan</item>
+        <item>Peshawar - PEW - Pakistan</item>
+        <item>Quetta - UET - Pakistan</item>
+        <item>Rahim Yar Khan - RYK - Pakistan</item>
+        <item>Rawala Kot - RAZ - Pakistan</item>
+        <item>Rawalpindi - RWP - Pakistan</item>
+        <item>Saidu Sharif - SDT - Pakistan</item>
+        <item>Sindhri - MPD - Pakistan</item>
+        <item>Skardu - KDU - Pakistan</item>
+        <item>Sui - SUL - Pakistan</item>
+        <item>Sukkur - SKZ - Pakistan</item>
+        <item>Turbat - TUK - Pakistan</item>
+        <item>Zhob - PZH - Pakistan</item>
+        <item>Gaza City - Gaza International Airport - GZA - Palestinian Territory</item>
+        <item>Jaque    - JQE - Panama</item>
+        <item>Panama City - Tocumen International - PTY</item>
+        <item>Aiyura - AYU - Papua New Guinea</item>
+        <item>Amazon Bay - AZB - Papua New Guinea</item>
+        <item>Jacquinot Bay - JAQ - Papua New Guinea</item>
+        <item>Lae - Lae Nadzab Airport - LAE - Papua New Guinea</item>
+        <item>Manguna - MFO - Papua New Guinea</item>
+        <item>Port Moresby - Jackson Field - POM - Papua New Guinea</item>
+        <item>Asuncion - Asunción International Airport - ASU - Paraguay</item>
+        <item>Iquitos - IQT - Peru</item>
+        <item>Jauja - JAU - Peru</item>
+        <item>Juanjui - JJI - Peru</item>
+        <item>Juliaca - JUL - Peru</item>
+        <item>Lima - J Chavez International - LIM - Peru</item>
+        <item>Cebu City - Mactan-Cebu International - CEB - Philippines</item>
+        <item>Cuyo - CYU - Philippines</item>
+        <item>Jolo - JOL - Philippines</item>
+        <item>Mactan Island - Nab - NOP - Philippines</item>
+        <item>Manila - Ninoy Aquino International - MNL - Philippines</item>
+        <item>Gdansk - GDN - Poland</item>
+        <item>Krakow (Cracow) - John Paul II International Airport - KRK - Poland</item>
+        <item>Poznan, Lawica - POZ - Poland</item>
+        <item>Stettin - SZZ - Poland</item>
+        <item>Warsaw - Frédéric Chopin - WAW - Poland</item>
+        <item>Faro - FAO - Portugal</item>
+        <item>Funchal - FNC - Portugal</item>
+        <item>Horta - HOR - Portugal</item>
+        <item>Lisbon - Lisboa - LIS - Portugal</item>
+        <item>Ponta Delgada - PDL - Portugal</item>
+        <item>Porto - OPO - Portugal</item>
+        <item>Porto Santo - PXO - Portugal</item>
+        <item>Santa Maria - SMA - Portugal</item>
+        <item>Terceira - TER - Portugal</item>
+        <item>Aguadilla - BQN - Puerto Rico</item>
+        <item>Mayaguez - MAZ - Puerto Rico</item>
+        <item>Ponce - PSE - Puerto Rico</item>
+        <item>San Juan - SJU - Puerto Rico</item>
+        <item>Doha - Doha International Airport - DOH - Qatar</item>
+        <item>Saint Denis de la Reunion - RUN</item>
+        <item>Bucharest - BUH - Romania</item>
+        <item>Bucharest - Henri Coandă International Airport - OTP - Romania</item>
+        <item>Constanta (Constanța) - Constanta Int\'l Airport - CND - Romania</item>
+        <item>Adler/Sochi - AER - Russia</item>
+        <item>Arkhangelsk - ARH - Russia</item>
+        <item>Chabarovsk (Khabarovsk) - KHV - Russia</item>
+        <item>Chita (Tschita) - HTA - Russia</item>
+        <item>Irkutsk - IKT - Russia</item>
+        <item>Kaliningrad - KGD - Russia</item>
+        <item>Kazan - Kazan International Airport - KZN - Russia</item>
+        <item>Mineralnye Vody - MRV - Russia</item>
+        <item>Moscow - Metropolitan Area - MOW - Russia</item>
+        <item>Moscow - Domodedovo - DME - Russia</item>
+        <item>Moscow - Sheremetyevo - SVO - Russia</item>
+        <item>Moscow - Vnukovo - VKO - Russia</item>
+        <item>Murmansk - MMK - Russia</item>
+        <item>Nizhny Novgorod - Strigino International Airport - GOJ - Russia</item>
+        <item>Novosibirsk - Tolmachevo Airport - OVB - Russia</item>
+        <item>Rostov-on-Don - Rostov-on-Don Airport - RVI - Russia</item>
+        <item>Rostov-on-Don - Platov International Airport - ROV - Russia</item>
+        <item>Samara - Kurumoch International Airport - KUF - Russia</item>
+        <item>Saransk - Saransk Airport - SKX - Russia</item>
+        <item>St. Petersburg (Leningrad) - Pulkovo - LED - Russia</item>
+        <item>Ufa - UFA - Russia</item>
+        <item>Ukhta - UCT - Russia</item>
+        <item>Ulan-Ude - UUD - Russia</item>
+        <item>Velikiye Luki (Welikije Luki) - VLU - Russia</item>
+        <item>Yakutsk - YKS - Russia</item>
+        <item>Yekaterinburg - Koltsovo Airport - SVX - Russia</item>
+        <item>Kigali - Gregoire Kayibanda - KGL - Rwanda</item>
+        <item>Basseterre - Robert L. Bradshaw International Airport - SKB - Saint Kitts and Nevis</item>
+        <item>Castries - George F. L. Charles Airport - SLU - Saint Lucia</item>
+        <item>St. Lucia Hewanorra - UVF - Saint Lucia</item>
+        <item>St. Lucia Vigle - SLU - Saint Lucia</item>
+        <item>Canouan (island) - Canouan Airport - CIW - Saint Vincent &amp; amp; the Grenadines</item>
+        <item>Kingstown - E. T. Joshua Airport - SVD - Saint Vincent &amp; the Grenadines</item>
+        <item>St. Vincent - SVD - Saint Vincent &amp; the Grenadines</item>
+        <item>Union Island - UNI - Saint Vincent &amp; the Grenadines</item>
+        <item>Apia - Faleolo International Airport - APW - Samoa</item>
+        <item>Sao Tome - TMS - Sao Tome &amp; Principe</item>
+        <item>Dhahran - DHA - Saudi Arabia</item>
+        <item>Jeddah - King Abdulaziz International - JED - Saudi Arabia</item>
+        <item>Jouf - AJF - Saudi Arabia</item>
+        <item>Khamis Mushayat - AHB - Saudi Arabia</item>
+        <item>Madinah, Mohammad Bin Abdulaziz - MED - Saudi Arabia</item>
+        <item>Medina - MED - Saudi Arabia</item>
+        <item>Riyadh - King Khaled International - RUH - Saudi Arabia</item>
+        <item>Tabuk - TUU - Saudi Arabia</item>
+        <item>Taif - TIF - Saudi Arabia</item>
+        <item>Yanbu - YNB - Saudi Arabia</item>
+        <item>Dammam, King Fahad International - DMM - Saudi Arabia</item>
+        <item>Edinburgh - Edinburgh Airport - EDI - United Kingdom</item>
+        <item>Dakar - Léopold Sédar Senghor International Airport - DKR - Senegal</item>
+        <item>Belgrad (Beograd) - Belgrade Nikola Tesla International - BEG - Serbia</item>
+        <item>Nis - INI - Serbia</item>
+        <item>Novi Sad - QND - Serbia</item>
+        <item>Pristina - PRN - Serbia</item>
+        <item>Mahe - Seychelles International - SEZ</item>
+        <item>Freetown - Freetown-Lungi International Airport - FNA - Sierra Leone</item>
+        <item>Singapore - Changi - SIN</item>
+        <item>Singapore - Paya Lebar - QPG</item>
+        <item>Singapore - Seletar - XSP</item>
+        <item>Bratislava - M. R. Štefánik Airport - BTS - Slovakia</item>
+        <item>Ljubljana - Brnik - LJU - Slovenia</item>
+        <item>Maribor - MBX - Slovenia</item>
+        <item>Guadalcanal - GSI - Solomon Islands</item>
+        <item>Honiara Henderson International - HIR - Solomon Islands</item>
+        <item>Mogadishu - MGQ - Somalia</item>
+        <item>Aggeneys - AGZ - South Africa</item>
+        <item>Alexander Bay - Kortdoorn - ALJ - South Africa</item>
+        <item>Alldays - ADY - South Africa</item>
+        <item>Bloemfontein - Bloemfontein Airport - BFN - South Africa</item>
+        <item>Cape Town - Cape Town International Airport - CPT - South Africa</item>
+        <item>Durban - DUR - South Africa</item>
+        <item>East London - ELS - South Africa</item>
+        <item>Ellisras - ELL - South Africa</item>
+        <item>George - GRJ - South Africa</item>
+        <item>Johannesburg - OR Tambo International Airport - JNB - South Africa</item>
+        <item>Kimberley - KIM - South Africa</item>
+        <item>Kleinsee - KLZ - South Africa</item>
+        <item>Lanseria - HLA - South Africa</item>
+        <item>Lusisiki - LUJ - South Africa</item>
+        <item>Margate - MGH - South Africa</item>
+        <item>Messina - MEZ - South Africa</item>
+        <item>Mkambati - MBM - South Africa</item>
+        <item>Mossel Bay - MZY - South Africa</item>
+        <item>Mzamba - MZF - South Africa</item>
+        <item>Nelspruit - NLP - South Africa</item>
+        <item>Nelspruit - Kruger Mpumalanga International Airport - MQP - South Africa</item>
+        <item>Newcastle - NCS - South Africa</item>
+        <item>Oudtshoorn - OUH - South Africa</item>
+        <item>Phalaborwa - PHW - South Africa</item>
+        <item>Pietermaritzburg - PZB - South Africa</item>
+        <item>Pietersburg - PTG - South Africa</item>
+        <item>Pilanesberg/Sun City - NTY - South Africa</item>
+        <item>Plettenberg Bay - PBZ - South Africa</item>
+        <item>Port Elizabeth - PLZ - South Africa</item>
+        <item>Pretoria - Wonderboom Apt. - PRY - South Africa</item>
+        <item>Richards Bay - RCB - South Africa</item>
+        <item>Sishen - SIS - South Africa</item>
+        <item>Skukuza - SZK - South Africa</item>
+        <item>Springbok - SBU - South Africa</item>
+        <item>Thaba\'Nchu - TCU - South Africa</item>
+        <item>Ulundi - ULD - South Africa</item>
+        <item>Umtata - UTT - South Africa</item>
+        <item>Upington - UTN - South Africa</item>
+        <item>Vryheid - VYD - South Africa</item>
+        <item>Walvis Bay - WVB - South Africa</item>
+        <item>Welkom - WEL - South Africa</item>
+        <item>Pu San (Busan) - Gimhae International Airport - PUS - South Korea</item>
+        <item>Seoul - Incheon International Airport - ICN - South Korea</item>
+        <item>Seoul - Kimpo - SEL - South Korea</item>
+        <item>Ulsan - USN - South Korea</item>
+        <item>Juba - JUB - South Sudan</item>
+        <item>Alicante - ALC - Spain</item>
+        <item>Almeria - LEI - Spain</item>
+        <item>Arrecife/Lanzarote - ACE - Spain</item>
+        <item>Badajoz - BJZ - Spain</item>
+        <item>Barcelona - BCN - Spain</item>
+        <item>Bilbao - BIO - Spain</item>
+        <item>Cordoba - ODB - Spain</item>
+        <item>Fuerteventura - FUE - Spain</item>
+        <item>Gerona - GRO - Spain</item>
+        <item>Granada - GRX - Spain</item>
+        <item>Jerez de la Frontera/Cadiz - La Parra - XRY - Spain</item>
+        <item>La Coruna - LCG - Spain</item>
+        <item>Las Palmas - LPA - Spain</item>
+        <item>Madrid - Barajas - MAD - Spain</item>
+        <item>Mahon - MAH - Spain</item>
+        <item>Malaga - AGP - Spain</item>
+        <item>Murcia - MJV - Spain</item>
+        <item>Oviedo - OVD - Spain</item>
+        <item>Palma de Mallorca - PMI - Spain</item>
+        <item>Reus - REU - Spain</item>
+        <item>San Sebastian - EAS - Spain</item>
+        <item>Santa Cruz de la Palma - SPC - Spain</item>
+        <item>Santander - SDR - Spain</item>
+        <item>Santiago de Compostela - SCQ - Spain</item>
+        <item>Sevilla - SVQ - Spain</item>
+        <item>Tenerife - TCI - Spain</item>
+        <item>Tenerife - Sur Reina Sofia - TFS - Spain</item>
+        <item>Tenerife - Norte Los Rodeos - TFN - Spain</item>
+        <item>Valencia - VLC - Spain</item>
+        <item>Valladolid - VLL - Spain</item>
+        <item>Valverde - VDE - Spain</item>
+        <item>Vigo - VGO - Spain</item>
+        <item>Vitoria - VIT - Spain</item>
+        <item>Zaragoza - ZAZ - Spain</item>
+        <item>Colombo - Bandaranaike International Airport - CMB - Sri Lanka</item>
+        <item>Jaffna - Kankesanturai - JAF - Sri Lanka</item>
+        <item>Nevis - NEV - St. Kitts and Nevis</item>
+        <item>St. Kitts - SKB - St. Kitts and Nevis</item>
+        <item>St. Martin - SFG</item>
+        <item>Kassala - KSL - Sudan</item>
+        <item>Khartoum - Khartoum International Airport - KRT - Sudan</item>
+        <item>Paramaribo - Zanderij International - PBM - Suriname</item>
+        <item>Longyearbyen - Svalbard - LYR - Norway</item>
+        <item>Manzini - Matsapha International - MTS - Swaziland</item>
+        <item>Gothenburg (Göteborg) - Landvetter - GOT - Sweden</item>
+        <item>Helsingborg - JHE - Sweden</item>
+        <item>Jönköping (Jonkoping) - Axamo Airport - JKG - Sweden</item>
+        <item>Kalmar - KLR - Sweden</item>
+        <item>Karlstad - KSD - Sweden</item>
+        <item>Kiruna - KRN - Sweden</item>
+        <item>Kristianstad - KID - Sweden</item>
+        <item>Lidkoeping - LDK - Sweden</item>
+        <item>Lulea - LLA - Sweden</item>
+        <item>Malmo (Malmoe) - MMA - Sweden</item>
+        <item>Malmo (Malmö) - Malmö Airport - MMX - Sweden</item>
+        <item>Norrkoeping - NRK - Sweden</item>
+        <item>Oerebro - ORB - Sweden</item>
+        <item>Ronneby - RNB - Sweden</item>
+        <item>Stockholm Metropolitan Area - STO - Sweden</item>
+        <item>Stockholm - Arlanda - ARN - Sweden</item>
+        <item>Stockholm - Bromma - BMA - Sweden</item>
+        <item>Sundsvall - SDL - Sweden</item>
+        <item>Umea - UME - Sweden</item>
+        <item>Vaexjoe - VXO - Sweden</item>
+        <item>Vasteras - VST - Sweden</item>
+        <item>Visby - VBY - Sweden</item>
+        <item>Altenrhein - ACH - Switzerland</item>
+        <item>Basel - BSL - Switzerland</item>
+        <item>Berne, Bern-Belp - BRN - Switzerland</item>
+        <item>Berne, Railway Service - ZDJ - Switzerland</item>
+        <item>Geneva - Geneva-Cointrin International Airport - GVA - Switzerland</item>
+        <item>Lugano - LUG - Switzerland</item>
+        <item>Zurich (Zürich) - Kloten - ZRH - Switzerland</item>
+        <item>Basel/Mulhouse - EAP - Switzerland</item>
+        <item>Aleppo - ALP - Syria</item>
+        <item>Damascus, International - DAM - Syria</item>
+        <item>Kaohsiung International - KHH - Taiwan</item>
+        <item>Makung - MZG - Taiwan</item>
+        <item>Taipei - Chiang Kai Shek - TPE - Taiwan</item>
+        <item>Taipei - Sung Shan - TAY - Taiwan</item>
+        <item>Dushanbe (Duschanbe) - Dushanbe Airport - DYU - Tajikistan</item>
+        <item>Arusha - ARK - Tanzania</item>
+        <item>Dar es Salam (Daressalam) - Julius Nyerere Int\'l - DAR - Tanzania</item>
+        <item>Dodoma - Dodoma Airport - DOD - Tanzania</item>
+        <item>Kilimadjaro - JRO - Tanzania</item>
+        <item>Los Rodeos - TFN - Spain</item>
+        <item>Reina Sofia - TFS - Spain</item>
+        <item>Bangkok, Don Muang - DMK - Thailand</item>
+        <item>Bangkok, Suvarnabhumi International - BKK - Thailand</item>
+        <item>Chiang Mai - Chiang Mai International Airport - CNX - Thailand</item>
+        <item>Hatyai (Hat Yai) - HDY - Thailand</item>
+        <item>Nakhon Si Thammarat - NST - Thailand</item>
+        <item>Pattaya - PYX - Thailand</item>
+        <item>Phuket - HKT - Thailand</item>
+        <item>Ubon Ratchathani - Muang Ubon Airport - UBP - Thailand</item>
+        <item>Udon Thani - UTH - Thailand</item>
+        <item>Utapao (Pattaya) - UTP - Thailand</item>
+        <item>Bahamas - Lynden Pindling International Airport - NAS</item>
+        <item>Dili - Nicolau Lobato International Airport - DIL - Timor Leste (East Timor)</item>
+        <item>Lome - LFW - Togo</item>
+        <item>Nuku\'alofa - Fua\'Amotu International - TBU - Tonga</item>
+        <item>Port of Spain - Piarco International - POS - Trinidad and Tobago</item>
+        <item>Scarborough - Crown Point International - TAB - Trinidad and Tobago</item>
+        <item>Tobago - TAB - Trinidad and Tobago</item>
+        <item>Djerba - DJE - Tunisia</item>
+        <item>Monastir - MIR - Tunisia</item>
+        <item>Sfax - SFA - Tunisia</item>
+        <item>Tunis - Carthage - TUN - Tunisia</item>
+        <item>Adana - ADA - Turkey</item>
+        <item>Adiyaman - ADF - Turkey</item>
+        <item>Ankara - ANK - Turkey</item>
+        <item>Ankara - Esenboğa International Airport - ESB - Turkey</item>
+        <item>Antalya - AYT - Turkey</item>
+        <item>Bodrum - Milas Airport - BJV - Turkey</item>
+        <item>Dalaman - DLM - Turkey</item>
+        <item>Denizli - DNZ - Turkey</item>
+        <item>Erzincan - ERC - Turkey</item>
+        <item>Erzurum - ERZ - Turkey</item>
+        <item>Gaziantep - GZT - Turkey</item>
+        <item>Istanbul - Istanbul Atatürk Airport - IST - Turkey</item>
+        <item>Istanbul - Sabiha Gokcen - SAW - Turkey</item>
+        <item>Izmir - IZM - Turkey</item>
+        <item>Izmir - Adnan Menderes - ADB - Turkey</item>
+        <item>Kahramanmaras - KCM - Turkey</item>
+        <item>Kars - KYS - Turkey</item>
+        <item>Kayseri - ASR - Turkey</item>
+        <item>Konya - KYA - Turkey</item>
+        <item>Malatya - MLX - Turkey</item>
+        <item>Maras - KCM - Turkey</item>
+        <item>Mardin - MQM - Turkey</item>
+        <item>Mus - MSR - Turkey</item>
+        <item>Samsun - SZF - Turkey</item>
+        <item>Sivas - VAS - Turkey</item>
+        <item>Tekirdag - Corlu - TEQ - Turkey</item>
+        <item>Trabzon - TZX - Turkey</item>
+        <item>Van - Ferit Melen - VAN - Turkey</item>
+        <item>Ashgabat - Saparmurat Turkmenbashy Int. Airport - ASB - Turkmenistan</item>
+        <item>Entebbe - Entebbe International Airport - EBB - Uganda</item>
+        <item>Gulu - ULU - Uganda</item>
+        <item>Jinja - JIN - Uganda</item>
+        <item>Kharkov - HRK - Ukraine</item>
+        <item>Kiev - Borispol - KBP - Ukraine</item>
+        <item>Kiev - Zhulhany - IEV - Ukraine</item>
+        <item>Lvov (Lwow, Lemberg) - LWO - Ukraine</item>
+        <item>Nikolaev - NLV - Ukraine</item>
+        <item>Odessa - ODS - Ukraine</item>
+        <item>Simferopol - SIP - Ukraine</item>
+        <item>Uzhgorod - UDJ - Ukraine</item>
+        <item>Abu Dhabi - Abu Dhabi International - AUH - UAE</item>
+        <item>Al Ain - AAN - UAE</item>
+        <item>Alfujairah (Fujairah) - FJR - UAE</item>
+        <item>Dubai - Dubai International Airport - DXB - UAE</item>
+        <item>Fujairah, International Airport - FJR - UAE</item>
+        <item>Ras al Khaymah (Ras al Khaimah) - RKT - UAE</item>
+        <item>Sharjah - SHJ - UAE</item>
+        <item>Aberdeen - ABZ - United Kingdom</item>
+        <item>Barra (the famous tidal beach landing) - BRR - United Kingdom</item>
+        <item>Belfast - George Best Belfast City Airport - BHD - United Kingdom</item>
+        <item>Belfast - Belfast International Airport - BFS - United Kingdom</item>
+        <item>Benbecula - BEB - United Kingdom</item>
+        <item>Birmingham - Birmingham International Airport - BHX - United Kingdom</item>
+        <item>Blackpool - BLK - United Kingdom</item>
+        <item>Bournemouth - BOH - United Kingdom</item>
+        <item>Bristol - BRS - United Kingdom</item>
+        <item>Cambrigde - CBG - United Kingdom</item>
+        <item>Campbeltown - CAL - United Kingdom</item>
+        <item>Cardiff - Cardiff Airport - CWL - United Kingdom</item>
+        <item>Coventry - Baginton - CVT - United Kingdom</item>
+        <item>Derry (Londonderry) - LDY - United Kingdom</item>
+        <item>Doncaster/Sheffield, Robin Hood International Airport - DSA - United Kingdom</item>
+        <item>Dundee - DND - United Kingdom</item>
+        <item>Exeter - EXT - United Kingdom</item>
+        <item>Fair Isle (Shetland) - FIE - United Kingdom</item>
+        <item>Foula (Shetland) - FOU - United Kingdom</item>
+        <item>Glasgow, Prestwick - PIK - United Kingdom</item>
+        <item>Glasgow - GLA - United Kingdom</item>
+        <item>Humberside - HUY - United Kingdom</item>
+        <item>Inverness - INV - United Kingdom</item>
+        <item>Islay - ILY - United Kingdom</item>
+        <item>Kent (Manston) Kent International - MSE - United Kingdom</item>
+        <item>Kirkwall (Orkney) - KOI - United Kingdom</item>
+        <item>Land\'s End - LEQ - United Kingdom</item>
+        <item>Leeds/Bradford - LBA - United Kingdom</item>
+        <item>Lerwick/Tingwall (Shetland Islands) - LWK - United Kingdom</item>
+        <item>Liverpool - LPL - United Kingdom</item>
+        <item>London Metropolitan Area - LON - United Kingdom</item>
+        <item>London - City Airport - LCY - United Kingdom</item>
+        <item>London - Gatwick - LGW - United Kingdom</item>
+        <item>London - Heathrow - LHR - United Kingdom</item>
+        <item>London - Luton - LTN - United Kingdom</item>
+        <item>London - Stansted - STN - United Kingdom</item>
+        <item>Londonderry - Eglinton - LDY - United Kingdom</item>
+        <item>Lydd - Lydd International Airport - LYX - United Kingdom</item>
+        <item>Manchester - MAN - United Kingdom</item>
+        <item>Newquay - NQY - United Kingdom</item>
+        <item>Newcastle - NCL - United Kingdom</item>
+        <item>Norwich - NWI - United Kingdom</item>
+        <item>Nottingham - East Midlands - EMA - United Kingdom</item>
+        <item>Orkney - Kirkwall - KOI - United Kingdom</item>
+        <item>Out Skerries (Shetland) - OUK - United Kingdom</item>
+        <item>Sheffield, City Airport - SZD - United Kingdom</item>
+        <item>Sheffield, Doncaster, Robin Hood International Airport - DSA - United Kingdom</item>
+        <item>Southampton - Eastleigh - SOU - United Kingdom</item>
+        <item>Southend (London) - SEN - United Kingdom</item>
+        <item>Stansted (London) - STN - United Kingdom</item>
+        <item>Stornway - SYY - United Kingdom</item>
+        <item>Sumburgh (Shetland) - LSI - United Kingdom</item>
+        <item>Teesside, Durham Tees Valley - MME - United Kingdom</item>
+        <item>Unst (Shetland Island) - Baltasound Airport - UNT - United Kingdom</item>
+        <item>Wick - WIC - United Kingdom</item>
+        <item>Montevideo - Carrasco - MVD - Uruguay</item>
+        <item>Midway Island - Sand Island Field - MDY - USA</item>
+        <item>Aberdeen (SD) - ABR - USA</item>
+        <item>Abilene (TX) - ABI - USA</item>
+        <item>Akron (OH) - CAK - USA</item>
+        <item>Albany (GA) - ABY - USA</item>
+        <item>Albany (NY) - Albany International Airport - ALB - USA</item>
+        <item>Albuquerque (NM) - ABQ - USA</item>
+        <item>Allentown (PA) - ABE - USA</item>
+        <item>Altoona (PA) - AOO - USA</item>
+        <item>Altus - AXS - USA</item>
+        <item>Amarillo (TX) - AMA - USA</item>
+        <item>Anchorage (AK) - Ted Stevens Anchorage International - ANC - USA</item>
+        <item>Ann Arbor (MI) - ARB - USA</item>
+        <item>Anniston (AL) - ANB - USA</item>
+        <item>Appelton/Neenah/Menasha (WI) - ATW - USA</item>
+        <item>Asheville (NC) - AVL - USA</item>
+        <item>Aspen, (CO) - Aspen-Pitkin County Airport - ASE - USA</item>
+        <item>Athens (GA) - AHN - USA</item>
+        <item>Athens (OH) - ATO - USA</item>
+        <item>Atlanta (GA) - Hartsfield Atlanta International Airport - ATL - USA</item>
+        <item>Atlantic City (NJ) - Atlantic City International - ACY - USA</item>
+        <item>Augusta (GA) - AGS - USA</item>
+        <item>Augusta (ME) - Augusta State Airport - AUG - USA</item>
+        <item>Austin (TX) - Austin-Bergstrom Airport - AUS - USA</item>
+        <item>Bakersfield (CA) - BFL - USA</item>
+        <item>Baltimore (MD) - Washington International Airport - BWI - USA</item>
+        <item>Bangor (ME) - BGR - USA</item>
+        <item>Baton Rouge (LA) - Baton Rouge Metropolitan Airport - BTR - USA</item>
+        <item>Beaumont/Pt. Arthur (TX) - BPT - USA</item>
+        <item>Beckley (WV) - BKW - USA</item>
+        <item>Bellingham (WA) - BLI - USA</item>
+        <item>Bemidji (MN) - BJI - USA</item>
+        <item>Benton Harbour (MI) - BEH - USA</item>
+        <item>Bethel (AK) - BET - USA</item>
+        <item>Billings (MT) - BIL - USA</item>
+        <item>Birmingham (AL) - BHM - USA</item>
+        <item>Bismarck (ND) - Bismarck Municipal Airport - BIS - USA</item>
+        <item>Bloomington (IL) - BMI - USA</item>
+        <item>Bloomington (IN) - BMG - USA</item>
+        <item>Bluefield (WV) - BLF - USA</item>
+        <item>Boise (ID) - Boise Air Terminal - BOI - USA</item>
+        <item>Borrego Springs (CA) - BXS - USA</item>
+        <item>Boston (MA) - General Edward Lawrence Logan - BOS - USA</item>
+        <item>Bozeman (MT) - BZN - USA</item>
+        <item>Bradford/Warren (PA) /Olean (NY) - BFD - USA</item>
+        <item>Brainerd (MN) - BRD - USA</item>
+        <item>Bridgeport (CT) - BDR - USA</item>
+        <item>Brookings (SD) - BKX - USA</item>
+        <item>Brunswick (GA) - BQK - USA</item>
+        <item>Buffalo/Niagara Falls (NY) - BUF - USA</item>
+        <item>Bullhead City (NV) - BHC - USA</item>
+        <item>Burbank (CA) - BUR - USA</item>
+        <item>Burlington IA - BRL - USA</item>
+        <item>Burlington (VT) - BTV - USA</item>
+        <item>Butte (MT) - BTM - USA</item>
+        <item>Carlsbad (CA) - CLD - USA</item>
+        <item>Carson City (NV) - CSN - USA</item>
+        <item>Casper (WY) - CPR - USA</item>
+        <item>Cedar City (UT) - CDC - USA</item>
+        <item>Cedar Rapids IA - CID - USA</item>
+        <item>Champaign (IL) - CMI - USA</item>
+        <item>Charleston (SC) - CHS - USA</item>
+        <item>Charleston (WV) - Yeager Airport - CRW - USA</item>
+        <item>Charlotte (NC) - CLT - USA</item>
+        <item>Charlottesville (VA) - CHO - USA</item>
+        <item>Chattanooga (TN) - CHA - USA</item>
+        <item>Cheyenne (WY) - Cheyenne Regional Airport - CYS - USA</item>
+        <item>Chicago (IL), Midway - MDW - USA</item>
+        <item>Chicago (IL), O\'Hare International Airport - ORD - USA</item>
+        <item>Chicago (IL) - CHI - USA</item>
+        <item>Chico (CA) - CIC - USA</item>
+        <item>Cincinnati (OH) - Cincinnati/Northern Kentucky Int\'l - CVG - USA</item>
+        <item>Clarksburg (WV) - CKB - USA</item>
+        <item>Cleveland (OH) , Burke Lakefront - BKL - USA</item>
+        <item>Cleveland (OH) , Hopkins - CLE - USA</item>
+        <item>Cody/Powell/Yellowstone (WY) - COD - USA</item>
+        <item>Coffmann Cove (AK) - KCC - USA</item>
+        <item>College Station/Bryan (TX) - CLL - USA</item>
+        <item>Colorado Springs (CO) - COS - USA</item>
+        <item>Columbia (SC) - Columbia Metropolitan Airport - CAE - USA</item>
+        <item>Columbus (GA) - CSG - USA</item>
+        <item>Columbus (OH) - Port Columbus International Airport - CMH - USA</item>
+        <item>Concord (CA) - Buchanan Field - CCR - USA</item>
+        <item>Concord (NH) - Concord Municipal Airport - CON - USA</item>
+        <item>Cordova (AK) - CDV - USA</item>
+        <item>Corpus Christi (TX) - CRP - USA</item>
+        <item>Craig (AK) - CGA - USA</item>
+        <item>Crescent City (CA) - CEC - USA</item>
+        <item>Dallas (TX) , Love Field - DAL - USA</item>
+        <item>Dallas/Ft. Worth (TX) - Dallas/Fort Worth International - DFW - USA</item>
+        <item>Danville (VA) - DAN - USA</item>
+        <item>Dayton (OH) - DAY - USA</item>
+        <item>Daytona Beach (FL) - DAB - USA</item>
+        <item>Decatur (IL) - DEC - USA</item>
+        <item>Denver (CO) - Denver International Airport - DEN - USA</item>
+        <item>Des Moines (IA) - Des Moines International Airport - DSM - USA</item>
+        <item>Detroit (MI) , Coleman A. Young Municipal - DET - USA</item>
+        <item>Detroit (MI) , Wayne County Airport - DTW - USA</item>
+        <item>Detroit (MI) , Metropolitan Area - DTT - USA</item>
+        <item>Devils Lake (ND) - DVL - USA</item>
+        <item>Dillingham (AK) - DLG - USA</item>
+        <item>Dothan (AL) - DHN - USA</item>
+        <item>Dubois (PA) - DUJ - USA</item>
+        <item>Dubuque IA - DBQ - USA</item>
+        <item>Duluth (MN) /Superior (WI) - DLH - USA</item>
+        <item>Durango (CO) - DRO - USA</item>
+        <item>Dutch Harbor (AK) - DUT - USA</item>
+        <item>Eau Clarie (WI) - EAU - USA</item>
+        <item>Elkhart (IN) - EKI - USA</item>
+        <item>Elko (NV) - EKO - USA</item>
+        <item>Elmira (NY) - ELM - USA</item>
+        <item>El Paso (TX) - El Paso International Airport - ELP - USA</item>
+        <item>Ely (NV) - ELY - USA</item>
+        <item>Erie (PA) - ERI - USA</item>
+        <item>Escanaba (MI) - ESC - USA</item>
+        <item>Eugene (OR) - EUG - USA</item>
+        <item>Eureka (CA) - ACV - USA</item>
+        <item>Evansville (IN) - EVV - USA</item>
+        <item>Fairbanks (AK) - FAI - USA</item>
+        <item>Fargo (ND) (MN) - FAR - USA</item>
+        <item>Farmington (NM) - FMN - USA</item>
+        <item>Fayetteville (AR) - FYV - USA</item>
+        <item>Fayetteville/Ft. Bragg (NC) - FAY - USA</item>
+        <item>Flagstaff (AZ) - FLG - USA</item>
+        <item>Flint (MI) - FNT - USA</item>
+        <item>Florence (SC) - FLO - USA</item>
+        <item>Fort Dodge IA - FOD - USA</item>
+        <item>Fort Huachuca/Sierra Vista (AZ) - FHU - USA</item>
+        <item>Fort Lauderdale/Hollywood (FL) - FLL - USA</item>
+        <item>Fort Myers, Metropolitan Area (FL) - FMY - USA</item>
+        <item>Fort Myers, Southwest Florida Reg (FL) - RSW - USA</item>
+        <item>Fort Riley (KS) - Marshall AAF - FRI - USA</item>
+        <item>Fort Smith (AR) - FSM - USA</item>
+        <item>Fort Walton Beach (FL) - VPS - USA</item>
+        <item>Fort Wayne (IN) - FWA - USA</item>
+        <item>Fort Worth (TX) - Dallas/Fort Worth International Airport - DFW - USA</item>
+        <item>Franklin/Oil City (PA) - FKL - USA</item>
+        <item>Fresno (CA) - FAT - USA</item>
+        <item>Gadsden (AL) - GAD - USA</item>
+        <item>Gainesville (FL) - GNV - USA</item>
+        <item>Gilette (WY) - GCC - USA</item>
+        <item>Glasgow (MT) - GGW - USA</item>
+        <item>Glendive (MT) - GDV - USA</item>
+        <item>Grand Canyon (AZ) - GCN - USA</item>
+        <item>Grand Forks (ND) - GFK - USA</item>
+        <item>Grand Junction (CO) - GJT - USA</item>
+        <item>Grand Rapids (MI) - GRR - USA</item>
+        <item>Grand Rapids (MN) - GPZ - USA</item>
+        <item>Great Falls (MT) - GTF - USA</item>
+        <item>Green Bay (WI) - GRB - USA</item>
+        <item>Greenbrier/Lewisburg (WV) - LWB - USA</item>
+        <item>Greensboro/Winston Salem (NC) - GSO - USA</item>
+        <item>Greenville (MS) - GLH - USA</item>
+        <item>Greenville (NC) - PGV - USA</item>
+        <item>Greenville/Spartanburg (SC) - GSP - USA</item>
+        <item>Groton/New London (CT) - GON - USA</item>
+        <item>Gulfport/Biloxi (MS) - GPT - USA</item>
+        <item>Gunnison/Crested Butte (CO) - GUC - USA</item>
+        <item>Haines (AK) - HNS - USA</item>
+        <item>Hancock (MI) - CMX - USA</item>
+        <item>Harlingen/South Padre Island (TX) - HRL - USA</item>
+        <item>Harrisburg (PA) - Harrisburg Skyport - HAR - USA</item>
+        <item>Harrisburg (PA) - Harrisburg International - MDT - USA</item>
+        <item>Hartford (CT) /Springfield (MA) - BDL - USA</item>
+        <item>Havre (MT) - HVR - USA</item>
+        <item>Helena (MT) - HLN - USA</item>
+        <item>Hibbing (MN) - HIB - USA</item>
+        <item>Hickory (NC) - HKY - USA</item>
+        <item>Hilo (HI) - ITO - USA</item>
+        <item>Hilton Head Island (SC) - HHH - USA</item>
+        <item>Homer (AK) - HOM - USA</item>
+        <item>Honolulu (HI) - Honolulu International Airport - HNL - USA</item>
+        <item>Hoonah (AK) - HNH - USA</item>
+        <item>Houston (TX) , Hobby - HOU - USA</item>
+        <item>Houston, TX - George Bush Intercontinental Airport - IAH - USA</item>
+        <item>Huntington (WV) - HTS - USA</item>
+        <item>Huntsville (AL) - HSV - USA</item>
+        <item>Huron (SD) - HON - USA</item>
+        <item>Hyannis (MA) - HYA - USA</item>
+        <item>Hydaburg (AK) - HYG - USA</item>
+        <item>Idaho Falls (ID) - IDA - USA</item>
+        <item>Iliamna (AK) - ILI - USA</item>
+        <item>Imperial (CA) - IPL - USA</item>
+        <item>Indianapolis (IN) International - IND - USA</item>
+        <item>International Falls (MN) - INL - USA</item>
+        <item>Inykern (CA) - IYK - USA</item>
+        <item>Ithaca/Cortland (NY) - ITH - USA</item>
+        <item>Jackson Hole (WY) - JAC - USA</item>
+        <item>Jackson (MI) - Reynolds Municipal - JXN - USA</item>
+        <item>Jackson,  MN   - MJQ - USA</item>
+        <item>Jackson (MS) - Jackson Internationall - JAN - USA</item>
+        <item>Jackson (MS) - Hawkins Field    - HKS - USA</item>
+        <item>Jackson (TN) - Mckellar - MKL - USA</item>
+        <item>Jackson Hole (WY) - JAC - USA</item>
+        <item>Jacksonville (AR)  Little Rock AFB    - LRF - USA</item>
+        <item>Jacksonville (FL) - Cecil Field NAS    - NZC - USA</item>
+        <item>Jacksonville (FL) Jacksonville NAS    - NIP - USA</item>
+        <item>Jacksonville (FL) - International - JAX - USA</item>
+        <item>Jacksonville (FL) - Craig Municipal    - CRG - USA</item>
+        <item>Jacksonville (IL) - Municipal Airport - IJX - USA</item>
+        <item>Jacksonville (NC) - OAJ - USA</item>
+        <item>Jacksonville (TX) - JKV - USA</item>
+        <item>Jamestown (ND) - JMS - USA</item>
+        <item>Jamestown (NY) - JHW - USA</item>
+        <item>Janesville (WI) - Rock County - JVL - USA</item>
+        <item>Jefferson City (MO) - Jefferson Memorial - JEF - USA</item>
+        <item>Johnson City (NY) - Binghamton/Endicott/Johnson - BGM - USA</item>
+        <item>Johnston Island - JON - USA</item>
+        <item>Johnstown (PA) - JST - USA</item>
+        <item>Jonesboro (AR)  Jonesboro Airport - JBR - USA</item>
+        <item>Joplin (MO) - JLN - USA</item>
+        <item>Juneau (AK) - Juneau International Airport - JNU - USA</item>
+        <item>Kahului (HI) - OGG - USA</item>
+        <item>Kalamazoo/Battle Creek (MI) - AZO - USA</item>
+        <item>Kalispell (MT) - FCA - USA</item>
+        <item>Kamuela (HI) - MUE - USA</item>
+        <item>Kansas City (MO) - Kansas City International Airport - MCI - USA</item>
+        <item>Kapalua West (HI) - JHM - USA</item>
+        <item>Kaunakakai (HI) - MKK - USA</item>
+        <item>Kenai (AK) - ENA - USA</item>
+        <item>Ketchikan (AK) - KTN - USA</item>
+        <item>Key West (FL) - EYW - USA</item>
+        <item>Killeem (TX) - ILE - USA</item>
+        <item>King Salomon (AK) - AKN - USA</item>
+        <item>Kingston (NC) - ISO - USA</item>
+        <item>Klamath Fall (OR) - LMT - USA</item>
+        <item>Klawock (AK) - KLW - USA</item>
+        <item>Knoxville (TN) - TYS - USA</item>
+        <item>Kodiak (AK) - ADQ - USA</item>
+        <item>Kona (HI) - KOA - USA</item>
+        <item>Kotzbue (AK) - OTZ - USA</item>
+        <item>Labouchere Bay (AK) - WLB - USA</item>
+        <item>La Crosse (WI) - LSE - USA</item>
+        <item>Lafayette (IN) - LAF - USA</item>
+        <item>Lafayette, La - LFT - USA</item>
+        <item>Lake Charles (LA) - LCH - USA</item>
+        <item>Lake Havasu City (AZ) - HII - USA</item>
+        <item>Lake Tahoe (CA) - TVL - USA</item>
+        <item>Lanai City (HI) - LNY - USA</item>
+        <item>Lancaster (PA) - LNS - USA</item>
+        <item>Lansing (MI) - LAN - USA</item>
+        <item>Laramie (WY) - LAR - USA</item>
+        <item>Laredo (TX) - LRD - USA</item>
+        <item>Las Vegas (NV) - LAS - USA</item>
+        <item>Latrobe (PA) - LBE - USA</item>
+        <item>Laurel/Hattisburg (MS) - PIB - USA</item>
+        <item>Lawton (OK) - LAW - USA</item>
+        <item>Lebanon (NH) - LEB - USA</item>
+        <item>Lewiston (ID) - LWS - USA</item>
+        <item>Lewistown (MT) - LWT - USA</item>
+        <item>Lexington (KY) - LEX - USA</item>
+        <item>Lihue (HI) - LIH - USA</item>
+        <item>Lincoln (NE) - LNK - USA</item>
+        <item>Little Rock (AR) - LIT - USA</item>
+        <item>Long Beach (CA) - LGB - USA</item>
+        <item>Long Island (AK) - LIJ - USA</item>
+        <item>Long Island, Islip (NY) - Mac Arthur - ISP - USA</item>
+        <item>Longview/Kilgore (TX) - GGG - USA</item>
+        <item>Los Angeles (CA) - International - LAX - USA</item>
+        <item>Louisville (KY) - SDF - USA</item>
+        <item>Lubbock (TX) - LBB - USA</item>
+        <item>Lynchburg (VA) - LYH - USA</item>
+        <item>Lyons (KS) - Rice County Municipal - LYO - USA</item>
+        <item>Macon (GA) - MCN - USA</item>
+        <item>Madison (WI) - MSN - USA</item>
+        <item>Manchester (NH) - MHT - USA</item>
+        <item>Marathon (FL) - MTH - USA</item>
+        <item>Marquette (MI) - MQT - USA</item>
+        <item>Martha\'s Vineyard (MA) - MVY - USA</item>
+        <item>Martinsburg (WV) - MRB - USA</item>
+        <item>Mason City IA - MCW - USA</item>
+        <item>Mattoon (IL) - MTO - USA</item>
+        <item>McAllen (TX) - MFE - USA</item>
+        <item>Medford (OR) - MFR - USA</item>
+        <item>Melbourne (FL) - MLB - USA</item>
+        <item>Memphis (TN) - MEM - USA</item>
+        <item>Merced (CA) - MCE - USA</item>
+        <item>Meridian (MS) - MEI - USA</item>
+        <item>Metlakatla (AK) - MTM - USA</item>
+        <item>Miami (FL) - MIA - USA</item>
+        <item>Midland/Odessa (TX) - MAF - USA</item>
+        <item>Miles City (MT) - MLS - USA</item>
+        <item>Milwaukee (WI) - MKE - USA</item>
+        <item>Minneapolis - St. Paul International Airport (MN) - MSP - USA</item>
+        <item>Minot (ND) - MOT - USA</item>
+        <item>Missula (MT) - MSO - USA</item>
+        <item>Mitchell (SD) - MHE - USA</item>
+        <item>Mobile (AL) - Pascagoula (MS) - MOB - USA</item>
+        <item>Modesto (CA) - MOD - USA</item>
+        <item>Moline/Quad Cities (IL) - MLI - USA</item>
+        <item>Monroe, La - MLU - USA</item>
+        <item>Monterey (CA) - MRY - USA</item>
+        <item>Montgomery (AL) - MGM - USA</item>
+        <item>Montrose/Tellruide (CO) - MTJ - USA</item>
+        <item>Morgantown (WV) - MGW - USA</item>
+        <item>Moses Lake (WA) - MWH - USA</item>
+        <item>Mt. McKinley (AK) - MCL - USA</item>
+        <item>Muscle Shoals (AL) - MSL - USA</item>
+        <item>Muskegon (MI) - MKG - USA</item>
+        <item>Myrtle Beach (SC) - Myrtle Beach AFB - MYR - USA</item>
+        <item>Myrtle Beach (SC) - Grand Strand Airport - CRE - USA</item>
+        <item>Nantucket (MA) - ACK - USA</item>
+        <item>Naples (FL) - APF - USA</item>
+        <item>Nashville (TN) - BNA - USA</item>
+        <item>New Bern (NC) - EWN - USA</item>
+        <item>New Haven (CT) - HVN - USA</item>
+        <item>New Orleans, La - MSY - USA</item>
+        <item>New York - John F. Kennedy (NY) - JFK - USA</item>
+        <item>New York - LaGuardia (NY) - LGA - USA</item>
+        <item>New York - Newark (NJ) - EWR - USA</item>
+        <item>New York (NY) - NYC - USA</item>
+        <item>Newburgh (NY) - SWF - USA</item>
+        <item>Newport News/Williamsburg (VA) - PHF - USA</item>
+        <item>Niagara Falls International - IAG - USA</item>
+        <item>Nome (AK) - OME - USA</item>
+        <item>Norfolk/Virginia Beach (VA) - ORF - USA</item>
+        <item>North Bend (OR) - OTH - USA</item>
+        <item>Oakland (CA) - OAK - USA</item>
+        <item>Oklahoma City (OK) - Will Rogers World - OKC - USA</item>
+        <item>Omaha (NE) - OMA - USA</item>
+        <item>Ontario (CA) - ONT - USA</item>
+        <item>Orange County (Santa Ana) (CA) - SNA - USA</item>
+        <item>Orlando Metropolitan Area (FL) - ORL - USA</item>
+        <item>Orlando - International Airport (FL) - MCO - USA</item>
+        <item>Oshkosh (WI) - OSH - USA</item>
+        <item>Owensboro (KY) - OWB - USA</item>
+        <item>Oxnard (CA) - OXR - USA</item>
+        <item>Paducah (KY) - PAH - USA</item>
+        <item>Page/Lake Powell (AZ) - PGA - USA</item>
+        <item>Pakersburg (WV) /Marietta (OH) - PKB - USA</item>
+        <item>Palmdale/Lancaster (CA) - PMD - USA</item>
+        <item>Palm Springs (CA) - PSP - USA</item>
+        <item>Panama City (FL) - PFN - USA</item>
+        <item>Pasco (WA) - PSC - USA</item>
+        <item>Pellston (MI) - PLN - USA</item>
+        <item>Pendelton (OR) - PDT - USA</item>
+        <item>Pensacola (FL) - PNS - USA</item>
+        <item>Peoria/Bloomington (IL) - PIA - USA</item>
+        <item>Petersburg (AK) - PSG - USA</item>
+        <item>Philadelphia (PA) - International - PHL - USA</item>
+        <item>Phoenix (AZ) - Sky Harbor International - PHX - USA</item>
+        <item>Pierre (SD) - PIR - USA</item>
+        <item>Pittsburgh International Airport (PA) - PIT - USA</item>
+        <item>Plattsburgh (NY) - PLB - USA</item>
+        <item>Pocatello (ID) - PIH - USA</item>
+        <item>Port Angeles (WA) - CLM - USA</item>
+        <item>Portland (ME) - PWM - USA</item>
+        <item>Portland International (OR) - PDX - USA</item>
+        <item>Poughkeepsie (NY) - POU - USA</item>
+        <item>Presque Island (ME) - PQI - USA</item>
+        <item>Providence (RI) - PVD - USA</item>
+        <item>Prudhoe Bay (AK) - SCC - USA</item>
+        <item>Pueblo (CO) - PUB - USA</item>
+        <item>Pullman (WA) - PUW - USA</item>
+        <item>Quincy (IL) - UIN - USA</item>
+        <item>Raleigh/Durham (NC) - RDU - USA</item>
+        <item>Rapid City (SD) - RAP - USA</item>
+        <item>Reading (PA) - RDG - USA</item>
+        <item>Redding (CA) - RDD - USA</item>
+        <item>Redmond (OR) - RDM - USA</item>
+        <item>Reno (NV) - RNO - USA</item>
+        <item>Rhinelander (WI) - RHI - USA</item>
+        <item>Richmond (VA) - RIC - USA</item>
+        <item>Roanoke (VA) - ROA - USA</item>
+        <item>Rochester (MN) - RST - USA</item>
+        <item>Rochester (NY) - ROC - USA</item>
+        <item>Rock Springs (WY) - RKS - USA</item>
+        <item>Rockford (IL) - RFD - USA</item>
+        <item>Rockland (ME) - RKD - USA</item>
+        <item>Rocky Mount - Wilson (NC) - RWI - USA</item>
+        <item>Sacramento (CA) - SMF - USA</item>
+        <item>Saginaw/Bay City/Midland (MI) - MBS - USA</item>
+        <item>Salem (OR) - SLE - USA</item>
+        <item>Salinas (CA) - SNS - USA</item>
+        <item>Salisbury (MD) - SBY - USA</item>
+        <item>Salt Lake City (UT) - SLC - USA</item>
+        <item>San Angelo (TX) - SJT - USA</item>
+        <item>San Antonio (TX) - SAT - USA</item>
+        <item>San Diego - Lindberg Field International (CA) - SAN - USA</item>
+        <item>San Francisco - International Airport, SA - SFO - USA</item>
+        <item>San Jose (CA) - SJC - USA</item>
+        <item>San Luis Obisco (CA) - SBP - USA</item>
+        <item>Santa Ana - John Wayne Airport (CA) - SNA - USA</item>
+        <item>Santa Barbara (CA) - SBA - USA</item>
+        <item>Santa Maria (CA) - SMX - USA</item>
+        <item>Santa Rosa (CA) - STS - USA</item>
+        <item>Sarasota/Bradenton (FL) - SRQ - USA</item>
+        <item>Savannah (GA) - SAV - USA</item>
+        <item>Scottsdale (AZ) - SCF - USA</item>
+        <item>Seattle/Tacoma (WA) - SEA - USA</item>
+        <item>Shenandoah Valley/Stauton (VA) - SHD - USA</item>
+        <item>Sheridan (WY) - SHR - USA</item>
+        <item>Shreveport, La - SHV - USA</item>
+        <item>Sidney (MT) - SDY - USA</item>
+        <item>Sioux City IA - SUX - USA</item>
+        <item>Sioux Falls (SD) - FSD - USA</item>
+        <item>Sitka (AK) - SIT - USA</item>
+        <item>Skagway (AK) - SGY - USA</item>
+        <item>South Bend (IN) - SBN - USA</item>
+        <item>Spokane (WA) - GEG - USA</item>
+        <item>Springfield (IL) - SPI - USA</item>
+        <item>Springfield (MO) - SGF - USA</item>
+        <item>St. George (UT) - SGU - USA</item>
+        <item>St. Louis (MO) Lambert–St. Louis International Airport - STL - USA</item>
+        <item>State College/Belefonte (PA) - SCE - USA</item>
+        <item>Steamboat Springs (CO) - HDN - USA</item>
+        <item>Stockton (CA) - SCK - USA</item>
+        <item>Sun Valley (ID) - SUN - USA</item>
+        <item>Syracuse (NY) - SYR - USA</item>
+        <item>Talkeetna (AK) - TKA - USA</item>
+        <item>Tallahassee (FL) - TLH - USA</item>
+        <item>Tampa - International (FL) - TPA - USA</item>
+        <item>Telluride (CO) - TEX - USA</item>
+        <item>Terre Haute (IN) - HUF - USA</item>
+        <item>Texarkana (AR) - TXK - USA</item>
+        <item>Thief River Falls (MN) - TVF - USA</item>
+        <item>Thorne Bay (AK) - KTB - USA</item>
+        <item>Toledo (OH) - TOL - USA</item>
+        <item>Traverse City (MI) - TVC - USA</item>
+        <item>Trenton/Princeton (NJ) - TTN - USA</item>
+        <item>Tri-Cities Regional (TN) /VA - TRI - USA</item>
+        <item>Tucson (AZ) - TUS - USA</item>
+        <item>Tulepo (MS) - TUP - USA</item>
+        <item>Tulsa (OK) - TUL - USA</item>
+        <item>Tuscaloosa (AL) - TCL - USA</item>
+        <item>Twin Falls (ID) - TWF - USA</item>
+        <item>Tyler (TX) - TYR - USA</item>
+        <item>Ukiah (CA) - UKI - USA</item>
+        <item>Unalakleet (AK) - UNK - USA</item>
+        <item>Upolu Point (HI) - UPP - USA</item>
+        <item>Utica (NY) - Oneida County Airport - UCA - USA</item>
+        <item>Vail (CO) - EGE - USA</item>
+        <item>Valdez (AK) - VDZ - USA</item>
+        <item>Valdosta (GA) - VLD - USA</item>
+        <item>Vernal (UT) - VEL - USA</item>
+        <item>Vero Beach/Ft. Pierce (FL) - VRB - USA</item>
+        <item>Visalia (CA) - VIS - USA</item>
+        <item>Waco (TX) - ACT - USA</item>
+        <item>Walla Walla (WA) - ALW - USA</item>
+        <item>Washington DC - Baltimore Washington International - BWI - USA</item>
+        <item>Washington DC - Dulles International - IAD - USA</item>
+        <item>Washington DC - Ronald Reagan National - DCA - USA</item>
+        <item>Washington DC - WAS - USA</item>
+        <item>Waterloo IA - ALO - USA</item>
+        <item>Watertown (SD) - ATY - USA</item>
+        <item>Wausau/Stevens Point (WI) - CWA</item>
+        <item>Wenatchee (WA) - EAT - USA</item>
+        <item>West Palm Beach (FL) - PBI - USA</item>
+        <item>West Yellowstone (MT) - WYS - USA</item>
+        <item>White Plains (NY) - HPN - USA</item>
+        <item>Wichita Falls (TX) - SPS - USA</item>
+        <item>Wichita (KS) - ICT - USA</item>
+        <item>Wilkes Barre/Scranton (PA) - AVP - USA</item>
+        <item>Williamsport (PA) - IPT - USA</item>
+        <item>Williston (ND) - ISL - USA</item>
+        <item>Wilmington (NC) - ILM - USA</item>
+        <item>Wolf Point (MT) - OLF - USA</item>
+        <item>Worcester (MA) - ORH - USA</item>
+        <item>Worland (WY) - WRL - USA</item>
+        <item>Wrangell (AK) - WRG - USA</item>
+        <item>Yakima (WA) - YKM - USA</item>
+        <item>Yakutat (AK) - YAK - USA</item>
+        <item>Yuma (AZ) - YUM - USA</item>
+        <item>Alexandria - Esler Field - ESF - USA</item>
+        <item>Samarkand - Samarkand International Airport - SKD - Uzbekistan</item>
+        <item>Tashkent - International - TAS - Uzbekistan</item>
+        <item>Termez (Termes) - TMZ - Uzbekistan</item>
+        <item>Urgench - UGC - Uzbekistan</item>
+        <item>Port Vila - VLI - Vanuatu</item>
+        <item>Santo - SON - Vanuatu</item>
+        <item>Ulei - ULB - Vanuatu</item>
+        <item>Barcelona - BLA - Venezuela</item>
+        <item>Caracas - Simón Bolívar International Airport - CCS - Venezuela</item>
+        <item>Ciudad Guayana - CGU - Venezuela</item>
+        <item>Maracaibo - La Chinita - MAR - Venezuela</item>
+        <item>Margerita - PMV - Venezuela</item>
+        <item>Puerto Ordaz - PZO - Venezuela</item>
+        <item>Uriman - URM - Venezuela</item>
+        <item>Valencia - VLN - Venezuela</item>
+        <item>Ho Chi Minh City (Saigon) - Tan Son Nhat International - SGN - Vietnam</item>
+        <item>Hue - Phu Bai - HUI - Vietnam</item>
+        <item>Saigon (Ho Chi Minh City) - SGN - Vietnam</item>
+        <item>Hanoi - Noi Bai International Airport - HAN - Vietnam</item>
+        <item>Beef Island - Terrance B. Lettsome - EIS - British Virgin Islands</item>
+        <item>Virgin Gorda - VIJ - British Virgin Islands</item>
+        <item>St. Croix - STX - US Virgin Islands</item>
+        <item>St. Thomas - STT - US Virgin Islands</item>
+        <item>Futuna - FUT - Wallis and Futuna Islands</item>
+        <item>Wallis - WLS - Wallis and Futuna Islands</item>
+        <item>Aden - Aden International Airport - ADE - Yemen</item>
+        <item>Sanaa (Sana\'a) - Sana\'a International - SAH - Yemen</item>
+        <item>Chipata - CIP - Zambia</item>
+        <item>Kitwe - KIW - Zambia</item>
+        <item>Lusaka - Lusaka International Airport - LUN - Zambia</item>
+        <item>Mfuwe - MFU - Zambia</item>
+        <item>N\'Dola - NLA - Zambia</item>
+        <item>Buffalo Range - BFO - Zimbabwe</item>
+        <item>Bulawayo - BUQ - Zimbabwe</item>
+        <item>Gweru - GWE - Zimbabwe</item>
+        <item>Harare - Harare International Airport - HRE - Zimbabwe</item>
+        <item>Hwange National Park - HWN - Zimbabwe</item>
+        <item>Masvingo - MVZ - Zimbabwe</item>
+        <item>Salisbury - SAY - Zimbabwe</item>
+        <item>Victoria Falls - VFA - Zimbabwe</item>
+        <item>Isle of Man - IOM - United Kingdom</item>
+
+    </string-array>
+</resources>
