@@ -16,6 +16,7 @@ import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -82,12 +83,18 @@ public class MapsActivity extends FragmentActivity {
         List<Address> list = null;
         try {
             list = geoCoder.getFromLocation(latitude, longitude, 1);
+
         } catch (IOException e) {
             e.printStackTrace();
         }finally {
             if (list != null & list.size() > 0) {
+
                 Address address = list.get(0);
                 result = address.getLocality();
+                if (result == null){
+                    result = address.getAddressLine(0);
+                    Log.i("MapsActivity", result);
+                }
             }
         }
 

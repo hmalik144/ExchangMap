@@ -5,6 +5,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +15,8 @@ import android.widget.AutoCompleteTextView;
 import android.widget.EdgeEffect;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -49,7 +53,7 @@ public class FragmentSearch extends Fragment implements GoogleApiClient.OnConnec
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(LayoutInflater inflater, final ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView =  inflater.inflate(R.layout.fragment_search, container, false);
@@ -65,6 +69,7 @@ public class FragmentSearch extends Fragment implements GoogleApiClient.OnConnec
             @Override
             public void onClick(View v) {
                 String myLocation = getLocationName(getContext(),getLatLong.latitude,getLatLong.longitude);
+
                 homeLocationEditText.setText(myLocation);
             }
         });
@@ -78,7 +83,12 @@ public class FragmentSearch extends Fragment implements GoogleApiClient.OnConnec
         googleApiClient = new GoogleApiClient.Builder(getContext())
                 .addApi(Places.GEO_DATA_API)
                 .addApi(Places.PLACE_DETECTION_API)
-                .enableAutoManage(getActivity(),this)
+                .enableAutoManage(getActivity(), new GoogleApiClient.OnConnectionFailedListener() {
+                    @Override
+                    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+                        Toast.makeText(getContext(), connectionResult.getErrorMessage(), Toast.LENGTH_LONG).show();
+                    }
+                })
                 .build();
 
         AutocompleteFilter typeFilter = new AutocompleteFilter.Builder()
@@ -92,6 +102,17 @@ public class FragmentSearch extends Fragment implements GoogleApiClient.OnConnec
 
         destinationEditText.setAdapter(mAutocompleteAdapter);
         homeLocationEditText.setAdapter(mAutocompleteAdapter);
+
+        TextView submit = rootView.findViewById(R.id.submit);
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction = (MapsActivity.fragmentManager).beginTransaction();
+                fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left, R.anim.enter_from_left, R.anim.exit_to_right)
+                        .replace(R.id.container,new ResultsFragment())
+                        .addToBackStack("result").commit();
+            }
+        });
 
         return rootView;
     }

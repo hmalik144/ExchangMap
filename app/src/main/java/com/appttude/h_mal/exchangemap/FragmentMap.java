@@ -17,10 +17,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.google.android.gms.common.data.DataBufferUtils;
-import com.google.android.gms.location.places.AutocompleteFilter;
-import com.google.android.gms.location.places.AutocompletePrediction;
-import com.google.android.gms.location.places.AutocompletePredictionBufferResponse;
 import com.google.android.gms.location.places.GeoDataClient;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.PlaceBufferResponse;
@@ -46,15 +42,8 @@ import com.google.android.gms.tasks.Tasks;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
 
-import static android.content.ContentValues.TAG;
 import static com.appttude.h_mal.exchangemap.MapsJsonCall.*;
-
-import static com.google.android.gms.location.places.AutocompleteFilter.TYPE_FILTER_ADDRESS;
-import static com.google.android.gms.location.places.AutocompleteFilter.TYPE_FILTER_ESTABLISHMENT;
 
 public class FragmentMap extends Fragment implements OnMapReadyCallback {
 
@@ -75,7 +64,6 @@ public class FragmentMap extends Fragment implements OnMapReadyCallback {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootview =  inflater.inflate(R.layout.fragment_maps, container, false);
-
 
         FloatingActionButton fab = rootview.findViewById(R.id.floatingActionButton);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -231,35 +219,22 @@ public class FragmentMap extends Fragment implements OnMapReadyCallback {
         }
 
         @Override
-        protected void onPostExecute(MapItem mapItem) {
-            super.onPostExecute(mapItem);
+        protected void onPostExecute(MapItem mapItems) {
+            super.onPostExecute(mapItems);
 
             LatLngBounds.Builder boundsBuilder = new LatLngBounds.Builder();
             LatLngBounds newBounds = null;
 
             try {
+                ArrayList<MapItem.result> results = mapItems.getResults();
 
-                ArrayList<MapItem.result> results = mapItem.getResults();
+                for (MapItem.result mapItem1 : results){
+                    boundsBuilder.include(mapItem1.getGeometry().getLocation());
 
-                for (int i=0; i <results.size(); i++){
-                    String id = results.get(i).getPlace_id();
-                    boundsBuilder.include(mapItem.getResults().get(i).getGeometry().getLocation());
-
-                    mGeoDataClient.getPlaceById(id).addOnCompleteListener(new OnCompleteListener<PlaceBufferResponse>() {
-                        @Override
-                        public void onComplete(@NonNull Task<PlaceBufferResponse> task) {
-                            if (task.isSuccessful()) {
-                                PlaceBufferResponse places = task.getResult();
-                                Place myPlace = places.get(0);
-
-                                Log.i(TAG, "Place found: " + myPlace.getName());
-                                mMap.addMarker(new MarkerOptions().position(myPlace.getLatLng()).title(myPlace.getName().toString()));
-                                places.release();
-                            } else {
-                                Log.e(TAG, "Place not found.");
-                            }
-                        }
-                    });
+                    MarkerOptions marker = new MarkerOptions().position(
+                            mapItem1.getGeometry().getLocation())
+                            .title(mapItem1.getName());
+                    mMap.addMarker(marker);
                 }
                 newBounds = boundsBuilder.build();
             }catch (Exception e){
@@ -278,89 +253,6 @@ public class FragmentMap extends Fragment implements OnMapReadyCallback {
 
             }
 
-        }
-    }
-
-    private class LocationAsyncTask extends AsyncTask<Task<AutocompletePredictionBufferResponse>, Void, AutocompletePredictionBufferResponse>{
-
-        @Override
-        protected AutocompletePredictionBufferResponse doInBackground(Task<AutocompletePredictionBufferResponse>... tasks) {
-
-            try {
-                Tasks.await(tasks[0], 60, TimeUnit.SECONDS);
-            } catch (ExecutionException | InterruptedException | TimeoutException e) {
-                e.printStackTrace();
-            }
-
-            return tasks[0].getResult();
-        }
-
-        @Override
-        protected void onPostExecute(AutocompletePredictionBufferResponse response) {
-            super.onPostExecute(response);
-
-            try {
-
-            Log.i(TAG, "Query completed. Received " + response.getCount()
-                    + " predictions.");
-
-            String [] ids = {"ChIJndkxNgNakWsRjHGZBzHxu8M","ChIJUcxf7YxbkWsRsndgEcBNlLQ","ChIJk-7r9ARakWsRv16cDh3GXzU","ChIJh4SRLgNakWsRuyWBDLouw-4","ChIJL533ngRakWsRUp51ucHAp5Q","ChIJy1uXvQRakWsRT6xLCK9LmzY","ChIJcTZWngRakWsRm8Cz7egsDm8","ChIJDfur3xxakWsR4WP10zl01Hg"};
-
-            for (int i=0; i <ids.length; i++){
-                mGeoDataClient.getPlaceById(ids[i]).addOnCompleteListener(new OnCompleteListener<PlaceBufferResponse>() {
-                    @Override
-                    public void onComplete(@NonNull Task<PlaceBufferResponse> task) {
-                        if (task.isSuccessful()) {
-                            PlaceBufferResponse places = task.getResult();
-                            Place myPlace = places.get(0);
-                            Log.i(TAG, "Place found: " + myPlace.getName());
-                            mMap.addMarker(new MarkerOptions().position(myPlace.getLatLng()).title(myPlace.getName().toString()));
-                            places.release();
-                        } else {
-                            Log.e(TAG, "Place not found.");
-                        }
-                    }
-                });
-            }
-
-//            for (int i = 0; i < response.getCount(); i++){
-//                final String retrievedId = response.get(i).getPlaceId();
-//
-//                mGeoDataClient.getPlaceById(retrievedId).addOnCompleteListener(new OnCompleteListener<PlaceBufferResponse>() {
-//                    @Override
-//                    public void onComplete(@NonNull Task<PlaceBufferResponse> task) {
-//                        if (task.isSuccessful()) {
-//                            PlaceBufferResponse places = task.getResult();
-//                            Place myPlace = places.get(0);
-//                            Log.i(TAG, "Place found: " + myPlace.getName());
-//                            mMap.addMarker(new MarkerOptions().position(myPlace.getLatLng()).title(myPlace.getName().toString()));
-//                            places.release();
-//                        } else {
-//                            Log.e(TAG, "Place not found.");
-//                        }
-//                    }
-//                });
-//            }
-
-//                // Freeze the results immutable representation that can be stored safely.
-//                ArrayList<AutocompletePrediction> al = DataBufferUtils.freezeAndClose(response);
-//
-//                for (AutocompletePrediction p : al) {
-//                    CharSequence cs = p.getFullText(new CharacterStyle() {
-//                        @Override
-//                        public void updateDrawState(TextPaint tp) {
-//                            mMap.addMarker(new MarkerOptions().position().title("Marker in Sydney"));
-//                        }
-//                    });
-//                    Log.i(TAG, cs.toString());
-//                }
-
-            } catch (RuntimeExecutionException e) {
-                // If the query did not complete successfully return null
-                Log.e(TAG, "Error getting autocomplete prediction API call", e);
-            } finally {
-                mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(bounds,0));
-            }
         }
     }
 

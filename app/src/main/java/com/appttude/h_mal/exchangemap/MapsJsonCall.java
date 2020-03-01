@@ -43,7 +43,7 @@ public class MapsJsonCall {
                 .appendQueryParameter("query","currency exchange")
                 .appendQueryParameter("location",l.latitude+","+l.longitude)
                 .appendQueryParameter("radius","3")
-                .appendQueryParameter("key","QUl6YVN5QThEZERadkc2aWhTclI1VGxrRzRGWGI2ZmZ5dDE5X1Bn");
+                .appendQueryParameter("key","AIzaSyA8DdDZvG6ihSrR5TlkG4FXb6ffyt19_Pg");
 
         return builder.build().toString().replace("%2C",",").replace("%20", "+");
 
@@ -189,9 +189,18 @@ public class MapsJsonCall {
 
 
                 String place_id = currentResult.getString("place_id");
-                JSONObject plusCodeObject = currentResult.getJSONObject("plus_code");
-                PlusCode plusCode = new PlusCode(plusCodeObject.getString("compound_code"),
-                        plusCodeObject.getString("global_code"));
+
+                PlusCode plusCode = new PlusCode("","");
+
+                try {
+                    JSONObject plusCodeObject = currentResult.getJSONObject("plus_code");
+                    plusCode = new PlusCode(plusCodeObject.getString("compound_code"),
+                            plusCodeObject.getString("global_code"));
+                }catch (Exception e){
+                    Log.e("json", e.getMessage());
+                }
+
+
 
                 Double rating = currentResult.getDouble("rating");
                 String reference = currentResult.getString("reference");
